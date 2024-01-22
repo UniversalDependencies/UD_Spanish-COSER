@@ -4834,7 +4834,7 @@
 10	se	él	PRON	pc0cn000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	10	punct	_	_
 12	pues	pues	SCONJ	cs	_	15	discourse	_	_
-13	sería	serer	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+13	sería	ser	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 14	la	el	DET	pc3fsa00	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	MWE=la_que|MWEPOS=PRON
 15	que	que	PRON	pr0cn000	PronType=Rel	9	advcl	_	_
 
@@ -10571,12 +10571,12 @@
 # time = 00:00:24,010--> 00:00:27,840
 # location = Bocas del Rosario-Santander
 # text = vamos a hablar ahora con Doña
-1	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+1	vamos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	_	_	3	mark	_	_
-3	hablar	hablar	VERB	_	VerbForm=Inf	0	root	_	_
-4	ahora	ahora	ADV	_	_	3	advmod	_	_
+3	hablar	hablar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	ahora	ahora	ADV	_	_	1	advmod	_	_
 5	con	con	ADP	_	_	6	case	_	_
-6	Doña	Doña	PROPN	_	_	3	obl:arg	_	_
+6	Doña	Doña	PROPN	_	_	1	obl	_	_
 
 # sent_id = ALEC_C23_NS61_2-2-9
 # time = 00:00:54,510--> 00:03:23,173
@@ -10744,7 +10744,7 @@
 6	acá	acá	ADV	_	_	4	obl	_	_
 7	como	como	SCONJ	_	_	11	mark	_	_
 8	no	no	ADV	_	Polarity=Neg	11	advmod	_	_
-9	es	es	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+9	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 11	natural	natural	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
@@ -11041,7 +11041,7 @@
 # text = Mmm ¿Eres natural de... dónde?
 1	Mmm	Mmm	INTJ	_	_	4	discourse	_	_
 2	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	4	punct	_	SpaceAfter=No
-3	Eres	eres	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	Eres	ser	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	natural	natural	ADJ	_	Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	...	...	PUNCT	_	PunctType=Comm	5	punct	_	_
