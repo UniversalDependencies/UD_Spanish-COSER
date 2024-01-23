@@ -3330,7 +3330,7 @@
 # turn_time = 01:48:30.40-01:48:45.25
 1	Yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	le	él	PRON	pc3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	_
-3	suelo	soler	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	suelo	soler	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	decir	decir	VERB	vmn0000	VerbForm=Inf	0	root	_	_
 5	a	a	ADP	fs	_	7	case	_	_
 6	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
@@ -6353,10 +6353,10 @@
 5	de	de	ADP	sps00	_	7	case	_	_
 6	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	7	nmod	_	_
 7	madre	madre	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	_	_
-8	que	que	SCONJ	pr0cn000	_	9	mark	_	_
-9	solía	soler	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-10	hacer	hacer	VERB	vmn0000	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
-11	,	,	PUNCT	fc	PunctType=Comm	9	punct	_	_
+8	que	que	SCONJ	pr0cn000	_	10	mark	_	_
+9	solía	soler	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	hacer	hacer	VERB	vmn0000	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	fc	PunctType=Comm	10	punct	_	_
 12	pero	pero	CCONJ	cc	_	16	cc	_	_
 13	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 14	era	ser	AUX	vsii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
