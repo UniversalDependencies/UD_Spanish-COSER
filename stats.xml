@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>539</sentences><tokens>7987</tokens><words>8073</words><fused>85</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>539</sentences><tokens>7987</tokens><words>8073</words><fused>85</fused></test>
+  </size>
+  <lemmas unique="1041" /><!-- ,, el, él, ., y, que, de, a, ser, no, uno, ?, ¿, yo, haber -->
+  <forms unique="1508" /><!-- ,, ., y, que, de, la, a, no, el, ?, ¿, se, ..., lo, en -->
+  <fusions unique="38" /><!-- al, del, velo, cuéntenos, darle, estirarlo, imagínate, acórdome, aguantalo, bañarse, buscalas, casarme, cocela, cogerlas, cogerse -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">173</tag><!-- bueno, grande, buena, natural, diferente, bonito, criollo, joven, mismo, primero -->
+    <tag name="ADP">660</tag><!-- de, a, en, por, para, con, hasta, desde, sin, entre -->
+    <tag name="ADV">701</tag><!-- no, ya, aquí, más, mucho, ahora, ahí, así, entonces, luego -->
+    <tag name="AUX">263</tag><!-- ser, haber, estar, poder, soler, querer -->
+    <tag name="CCONJ">426</tag><!-- y, pero, o, ni, osea, u -->
+    <tag name="DET">739</tag><!-- el, uno, todo, mi, mucho, otro, este, su, ese, cada -->
+    <tag name="INTJ">141</tag><!-- sí, eh, bueno, claro, brum, ay, ah, hala, mm, salve -->
+    <tag name="NOUN">927</tag><!-- año, día, cosa, casa, gente, hijo, vez, hermano, pueblo, marido -->
+    <tag name="NUM">91</tag><!-- dos, cinco, cuarenta, cuatro, siete, tres, ocho, cincuenta, diez, veinte -->
+    <tag name="PRON">904</tag><!-- él, yo, tú, ese, que, todo, cómo, qué, este, otro -->
+    <tag name="PROPN">68</tag><!-- NP, Pamplona, España, Madrid, San, virgen, Alemania, Ana, Arroa, Bolívar -->
+    <tag name="PUNCT">1615</tag><!-- ,, ., ?, ¿, ..., ", !, ¡, :, ( -->
+    <tag name="SCONJ">360</tag><!-- que, pues, porque, si, como, cuando, mientras -->
+    <tag name="VERB">978</tag><!-- hacer, tener, ir, haber, decir, estar, venir, poner, ver, saber -->
+    <tag name="X">27</tag><!-- anim, cuan, a, apar, cam, champ, co, cor, cos, cuch -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="61">
+    <feat name="Case" value="Acc" upos="PRON">261</feat><!-- lo, se, los, la, las, me, te, mí, nos, m -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">60</feat><!-- se, me, nos, te, os, sos -->
+    <feat name="Case" value="Acc,Nom" upos="PRON">48</feat><!-- usted, nosotros, él, ellas, ella, ello, ustedes, ellos, uste, usté -->
+    <feat name="Case" value="Dat" upos="PRON">119</feat><!-- le, te, me, nos, les, se, mos -->
+    <feat name="Case" value="Nom" upos="PRON">72</feat><!-- yo, tú -->
+    <feat name="Definite" value="Def" upos="DET">425</feat><!-- la, el, las, los, l -->
+    <feat name="Definite" value="Ind" upos="DET">137</feat><!-- un, una, unos, unas -->
+    <feat name="Degree" value="Abs" upos="ADJ,DET">3</feat><!-- muchísima, muchísimas, rarísimo -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">42</feat><!-- más, menos, mayor, meno -->
+    <feat name="Degree" value="Dim" upos="ADJ,NOUN">11</feat><!-- espesito, cabritas, chiquitinas, mesillas, pastillica, patitas, pueblecito, ratito, tajaditas, traviesillos -->
+    <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- máximo -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,X">891</feat><!-- la, las, una, gente, casa, otra, cosas, esta, mucha, cosa -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1161</feat><!-- el, lo, los, un, todo, años, otro, todos, días, día -->
+    <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- dedicaría, pintaría -->
+    <feat name="Mood" value="Imp" upos="VERB">18</feat><!-- mira, Oye, cuente, imagina, sube, Anda, Mire, cuenta, vamos -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">954</feat><!-- es, era, había, hay, ha, está, hace, digo, fue, tenía -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">41</feat><!-- sea, fueran, haya, ordeñes, penetre, preocupes, Fuera, crea, creas, dedique -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">919</feat><!-- las, los, dos, nos, años, todos, cosas, días, hacían, les -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">2666</feat><!-- la, el, lo, es, una, un, yo, eso, le, era -->
+    <feat name="Number[psor]" value="Plur" upos="DET">1</feat><!-- nuestro -->
+    <feat name="Number[psor]" value="Sing" upos="DET,PRON">30</feat><!-- mi, mía, mío, mis, mí, tus -->
+    <feat name="NumForm" value="Digit" upos="NOUN,NUM">6</feat><!-- pesetas, 2003, 3, 48, pesos -->
+    <feat name="NumType" value="Card" upos="DET,NUM,PRON">129</feat><!-- dos, mucha, cinco, cuarenta, cuatro, mucho, siete, tres, muchos, ocho -->
+    <feat name="NumType" value="Ord" upos="ADJ">6</feat><!-- segundo, primer, primero, segunda, último -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">322</feat><!-- yo, me, mi, nos, digo, he, nosotros, fui, sé, tengo -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">151</feat><!-- te, usted, tú, sabes, tienes, mira, vas, Oye, ves, entiendes -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1154</feat><!-- se, lo, es, le, era, había, hay, los, está, ha -->
+    <feat name="Polarity" value="Neg" upos="ADV">166</feat><!-- no, ni, non, nunca -->
+    <feat name="Polite" value="Form" upos="PRON">15</feat><!-- usted, ustedes, usté -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">46</feat><!-- mi, su, sus, mía, mío, mis, mí, nuestro, tus -->
+    <feat name="PrepCase" value="Npr" upos="PRON">382</feat><!-- se, lo, te, me, los, la, nos, las, m, mos -->
+    <feat name="PrepCase" value="Pre" upos="PRON">6</feat><!-- mí -->
+    <feat name="PronType" value="Art" upos="DET">562</feat><!-- la, el, un, una, las, los, unos, unas, l -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">127</feat><!-- eso, esto, esta, esos, esas, ese, esa, estas, aquel, este -->
+    <feat name="PronType" value="Exc" upos="PRON">2</feat><!-- Qué -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">112</feat><!-- otro, otra, mucha, mucho, algo, otros, uno, muchos, una, poco -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON,SCONJ">79</feat><!-- cómo, qué, dónde, cuándo, Cuántos, quién, como, cuantos -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON">10</feat><!-- que, cuál, cuáles, qué -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">14</feat><!-- nada, na, nadie, ninguno, ningún -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">611</feat><!-- se, lo, yo, le, te, me, mi, los, la, nos -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">54</feat><!-- que, donde, quien, cuantas -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">72</feat><!-- todo, todos, to, cada, todas, tos, toda, toa, toas -->
+    <feat name="PunctSide" value="Fin" upos="PUNCT">182</feat><!-- ?, !, ", ) -->
+    <feat name="PunctSide" value="Ini" upos="PUNCT">178</feat><!-- ¿, ", ¡, ( -->
+    <feat name="PunctType" value="Brck" upos="PUNCT">8</feat><!-- (, ) -->
+    <feat name="PunctType" value="Colo" upos="PUNCT">13</feat><!-- : -->
+    <feat name="PunctType" value="Comm" upos="PUNCT">899</feat><!-- ,, ... -->
+    <feat name="PunctType" value="Excl" upos="PUNCT">32</feat><!-- !, ¡ -->
+    <feat name="PunctType" value="Peri" upos="PUNCT">336</feat><!-- . -->
+    <feat name="PunctType" value="Qest" upos="PUNCT">288</feat><!-- ?, ¿ -->
+    <feat name="PunctType" value="Quot" upos="PUNCT">36</feat><!-- " -->
+    <feat name="PunctType" value="Semi" upos="PUNCT">3</feat><!-- ; -->
+    <feat name="Reflex" value="Yes" upos="PRON">164</feat><!-- se, me, nos, te, m -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">5</feat><!-- dará, diré, habrá, hará, será -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">342</feat><!-- era, había, tenía, hacía, hacían, iba, eran, estaba, teníamos, decían -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">156</feat><!-- fue, fui, estuvo, dicho, sembraron, dijo, fueron, hecho, hubo, trabajao -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">542</feat><!-- es, hay, ha, está, hace, digo, tiene, va, he, sea -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1014</feat><!-- es, era, había, hay, ha, está, hace, digo, fue, tenía -->
+    <feat name="VerbForm" value="Ger" upos="VERB">33</feat><!-- mirando, preguntando, tirando, viviendo, Viendo, andando, arando, asiendo, cambiando, cayendo -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">142</feat><!-- hacer, decir, trabajar, ver, ir, coger, comprar, sembrar, comer, estar -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">77</feat><!-- dicho, hecho, trabajao, Enrazao, apretás, enterrao, puesto, sentao, sío, visto -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="38">
+    <dep name="acl">9</dep>
+    <dep name="acl:relcl">29</dep>
+    <dep name="advcl">286</dep>
+    <dep name="advmod">667</dep>
+    <dep name="amod">87</dep>
+    <dep name="appos">20</dep>
+    <dep name="aux">40</dep>
+    <dep name="aux:pass">44</dep>
+    <dep name="case">517</dep>
+    <dep name="cc">410</dep>
+    <dep name="ccomp">62</dep>
+    <dep name="compound">17</dep>
+    <dep name="conj">341</dep>
+    <dep name="cop">120</dep>
+    <dep name="csubj">8</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">743</dep>
+    <dep name="discourse">163</dep>
+    <dep name="discourse:filler">26</dep>
+    <dep name="expl:impers">5</dep>
+    <dep name="expl:pass">51</dep>
+    <dep name="expl:pv">84</dep>
+    <dep name="fixed">101</dep>
+    <dep name="flat">11</dep>
+    <dep name="mark">349</dep>
+    <dep name="nmod">117</dep>
+    <dep name="nsubj">344</dep>
+    <dep name="nsubj:outer">5</dep>
+    <dep name="nsubj:pass">16</dep>
+    <dep name="nummod">49</dep>
+    <dep name="obj">515</dep>
+    <dep name="obl">310</dep>
+    <dep name="obl:arg">94</dep>
+    <dep name="parataxis">37</dep>
+    <dep name="punct">1615</dep>
+    <dep name="reparandum">164</dep>
+    <dep name="root">539</dep>
+    <dep name="xcomp">76</dep>
+  </deps>
+</treebank>
