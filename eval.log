@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Spanish-COSER:
-commit 3e0736b4557fd41af972a41ca2787fc4bc8f9a08
+commit 6268b666e7ce1c950789c52a5623cb002377aca8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Mar 26 20:41:23 2024 +0100
+Date:   Sun May 5 13:32:23 2024 +0200
 Size: counted 8073 of 8073 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.17705032082576.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,11 @@ Udapi: found 90 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 8073 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-COSER/es_coser-ud-test.conllu
+[Line 1892 Sent gall-293 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:los:det --> 4:catorce:nummod)
+[Line 6565 Sent rioj-108 Node 31]: [L3 Warning leaf-det] 'det' not expected to have children (31:lo:det --> 34:orillo:nmod)
+[Line 6576 Sent rioj-108 Node 41]: [L3 Warning leaf-det] 'det' not expected to have children (41:lo:det --> 44:orillo:appos)
+[Line 10663 Sent ALEC_C18_Ce6_1-9-4 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:esos:det --> 12:dos:nummod)
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
