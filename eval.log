@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Spanish-COSER:
-commit 6268b666e7ce1c950789c52a5623cb002377aca8
+commit 43e050491f86b1e2c3271c35989059cefe3316b6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:32:23 2024 +0200
+Date:   Mon Nov 11 16:41:58 2024 +0100
 Size: counted 8073 of 8073 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.17705032082576.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,26 +20,46 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         90
-Udapi: found 90 bugs.
+               TOTAL         61
+Udapi: found 61 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 8073 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-COSER/es_coser-ud-test.conllu
-[Line 1892 Sent gall-293 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:los:det --> 4:catorce:nummod)
-[Line 6565 Sent rioj-108 Node 31]: [L3 Warning leaf-det] 'det' not expected to have children (31:lo:det --> 34:orillo:nmod)
-[Line 6576 Sent rioj-108 Node 41]: [L3 Warning leaf-det] 'det' not expected to have children (41:lo:det --> 44:orillo:appos)
-[Line 10663 Sent ALEC_C18_Ce6_1-9-4 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:esos:det --> 12:dos:nummod)
-Warnings: 4
-*** PASSED ***
-Validity: 1
+[Line 158 Sent anda-6 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ahora mismo' does not have the 'ExtPos' feature
+[Line 276 Sent arag-657 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'a lo mejor' does not have the 'ExtPos' feature
+[Line 276 Sent arag-657 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
+[Line 312 Sent arag-53 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'de todo' does not have the 'ExtPos' feature
+[Line 806 Sent cana-892 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'un poco' does not have the 'ExtPos' feature
+[Line 868 Sent cana-630 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'aun así' does not have the 'ExtPos' feature
+[Line 1016 Sent cant-74 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Pues claro' does not have the 'ExtPos' feature
+[Line 1093 Sent cant-516 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'de manera de' does not have the 'ExtPos' feature
+[Line 1147 Sent cant-633 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'a menudo' does not have the 'ExtPos' feature
+[Line 1147 Sent cant-633 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
+[Line 1241 Sent cast-186 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Por ejemplo' does not have the 'ExtPos' feature
+[Line 1241 Sent cast-186 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Por'
+[Line 1398 Sent cata-805 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1563 Sent extr-687 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'Na'
+[Line 1892 Sent gall-293 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:los:det --> 4:catorce:nummod)
+[Line 1917 Sent gall-542 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+[Line 2051 Sent madr-146 Node 42]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
+[Line 2515 Sent murci-402 Node 63]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'una'
+[Line 3164 Sent vale-659 Node 110]: [L3 Syntax rel-upos-mark] 'mark' should not be 'ADJ' word 'igual'
+[Line 3466 Sent vasc-270 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+...suppressing further errors regarding Syntax
+Syntax errors: 37
+Warnings: 79
+*** FAILED *** with 37 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.302344984161139) = 0.0775243549131126
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.888517279821628) = 0.273389932252808
+(weight=0.307692307692308) * (score{udapi}=0.924439489656881) = 0.284442919894425
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.640041513940207) * (availability=1) * (validity=1) = 0.640041513940207
-STARS = 3
-UD_Spanish-COSER	0.640041513940207	3
+(TOTAL score=0.650843118977499) * (availability=1) * (validity=0.01) = 0.00650843118977499
+STARS = 0
+UD_Spanish-COSER	0.00650843118977499	0
