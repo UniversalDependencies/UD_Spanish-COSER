@@ -10190,7 +10190,7 @@
 # time = 00:03:52,554--> 00:04:02,660
 # location = Corrales-Boyacá
 # text = Tal vez que no les dará muy buen resultado.
-1	Tal	tal	NOUN	_	_	6	advmod	_	MWE=tal_vez|MWEPOS=ADV
+1	Tal	tal	NOUN	_	ExtPos=ADV	6	advmod	_	MWE=tal_vez|MWEPOS=ADV
 2	vez	vez	NOUN	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	no	no	ADV	_	Polarity=Neg	6	advmod	_	_

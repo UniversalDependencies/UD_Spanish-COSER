@@ -44,7 +44,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">42</feat><!-- más, menos, mayor, meno -->
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">11</feat><!-- espesito, cabritas, chiquitinas, mesillas, pastillica, patitas, pueblecito, ratito, tajaditas, traviesillos -->
     <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- máximo -->
-    <feat name="ExtPos" value="ADV" upos="ADP">26</feat><!-- a, por, de, en -->
+    <feat name="ExtPos" value="ADV" upos="ADP,NOUN">27</feat><!-- a, por, de, en, Tal -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,X">891</feat><!-- la, las, una, gente, casa, otra, cosas, esta, mucha, cosa -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1161</feat><!-- el, lo, los, un, todo, años, otro, todos, días, día -->
     <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- dedicaría, pintaría -->
