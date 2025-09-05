@@ -17,7 +17,7 @@ Daniel Zeman (guidelines consulting)
 
 ## Key reference
 
-*Bonilla, J. E. (submitted). Development of the first spoken spanish treebank within the universal dependencies framework: A multi-regional approach.
+* Bonilla, J. E. (submitted). Development of the first spoken spanish treebank within the universal dependencies framework: A multi-regional approach.
 
 ## References
 * Fernández-Ordóñez, I. (Ed.). (2005-present). Corpus Oral y Sonoro del Español Rural. Retrieved April 15, 2022, from http://www.corpusrural.es/
@@ -25,6 +25,8 @@ Daniel Zeman (guidelines consulting)
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added the ExtPos feature to fixed expressions.
 * 2024-05-15 v2.14
   * Initial release in Universal Dependencies.
 
