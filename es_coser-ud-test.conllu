@@ -9147,7 +9147,7 @@
 # location = Badajoz: La Garrovilla
 # turn_time = 00:59:35.52-00:59:42.00
 1	Y	y	CCONJ	cc	_	7	cc	_	_
-2	a	a	ADP	sps00	_	5	case	_	MWE=a_partir_de|MWEPOS=ADP
+2	a	a	ADP	sps00	ExtPos=ADP	5	case	_	MWE=a_partir_de|MWEPOS=ADP
 3	partir	partir	VERB	vmn0000	VerbForm=Inf	2	fixed	_	_
 4	de	de	ADP	sps00	_	2	fixed	_	_
 5	ahí	ahí	ADV	rg	_	7	advmod	_	_
