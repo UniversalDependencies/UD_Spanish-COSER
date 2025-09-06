@@ -32,7 +32,7 @@
     <tag name="X">27</tag><!-- anim, cuan, a, apar, cam, champ, co, cor, cos, cuch -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="64">
+  <feats unique="65">
     <feat name="Case" value="Acc" upos="PRON">261</feat><!-- lo, se, los, la, las, me, te, mí, nos, m -->
     <feat name="Case" value="Acc,Dat" upos="PRON">60</feat><!-- se, me, nos, te, os, sos -->
     <feat name="Case" value="Acc,Nom" upos="PRON">48</feat><!-- usted, nosotros, él, ellas, ella, ello, ustedes, ellos, uste, usté -->
@@ -46,6 +46,7 @@
     <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- máximo -->
     <feat name="ExtPos" value="ADP" upos="ADP">1</feat><!-- a -->
     <feat name="ExtPos" value="ADV" upos="ADP,NOUN">27</feat><!-- a, por, de, en, Tal -->
+    <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ">5</feat><!-- o, así -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,DET,PRON">10</feat><!-- Así, de, una, Asín, Na, en, igual -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,X">891</feat><!-- la, las, una, gente, casa, otra, cosas, esta, mucha, cosa -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1161</feat><!-- el, lo, los, un, todo, años, otro, todos, días, día -->

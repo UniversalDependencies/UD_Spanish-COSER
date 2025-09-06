@@ -2474,7 +2474,7 @@
 23	,	,	PUNCT	fc	PunctType=Comm	22	punct	_	_
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	caldera	caldera	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obl	_	_
-26	así	así	ADV	rg	_	28	cc	_	_
+26	así	así	ADV	rg	ExtPos=CCONJ	28	cc	_	_
 27	de	de	ADP	sps00	_	26	fixed	_	_
 28	ancha	ancha	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	_	_
 29	y	y	CCONJ	cc	_	31	cc	_	_
@@ -4166,7 +4166,7 @@
 12	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	11	obj	_	_
 13	más	más	ADV	rg	Degree=Cmp	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
-15	o	o	CCONJ	cc	_	17	cc	_	MWE=o_sea|MWEPOS=CCONJ
+15	o	o	CCONJ	cc	ExtPos=CCONJ	17	cc	_	MWE=o_sea|MWEPOS=CCONJ
 16	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
 17	que	que	SCONJ	pr0cn000	_	11	conj	_	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	17	punct	_	_
@@ -4328,7 +4328,7 @@
 26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 27	profunda	profunda	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	27	punct	_	_
-29	o	o	CCONJ	cc	_	34	cc	_	MWE=o_sea|MWEPOS=CCONJ
+29	o	o	CCONJ	cc	ExtPos=CCONJ	34	cc	_	MWE=o_sea|MWEPOS=CCONJ
 30	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	fixed	_	_
 31	que	que	SCONJ	pr0cn000	_	34	mark	_	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -5274,7 +5274,7 @@
 5	y	y	CCONJ	cc	_	6	cc	_	_
 6	sacaba	sacar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	_
-8	o	o	CCONJ	cc	_	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
+8	o	o	CCONJ	cc	ExtPos=CCONJ	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
 9	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
 10	que	que	SCONJ	pr0cn000	_	12	obj	_	SpaceAfter=No
 11	...	...	PUNCT	_	PunctType=Comm	10	punct	_	_
@@ -8104,7 +8104,7 @@
 6	las	el	DET	pc3fpa00	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	bestias	bestia	NOUN	nccp000	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	_
-9	o	o	CCONJ	cc	_	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
+9	o	o	CCONJ	cc	ExtPos=CCONJ	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
 10	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	7	conj	_	_
