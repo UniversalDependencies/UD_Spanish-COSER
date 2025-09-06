@@ -27,6 +27,7 @@ Daniel Zeman (guidelines consulting)
 
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
+  * Fixed spurious dependents of determiners.
 * 2024-05-15 v2.14
   * Initial release in Universal Dependencies.
 
