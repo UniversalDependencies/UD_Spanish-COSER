@@ -11000,7 +11000,7 @@
 # location = Siachoque-Boyacá
 # text = Y respecto de, de la carne...
 1	Y	y	CCONJ	_	_	2	cc	_	_
-2	respecto	respecto	NOUN	_	_	7	case	_	_
+2	respecto	respecto	NOUN	_	ExtPos=ADP	7	case	_	_
 3	de	de	ADP	_	_	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	de	de	ADP	_	_	2	reparandum	_	_
