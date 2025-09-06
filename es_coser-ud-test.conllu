@@ -1090,7 +1090,7 @@
 17	molde	molde	NOUN	ncms000	Gender=Masc|Number=Sing	12	conj	_	_
 18	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	_	_
 19	había	haber	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
-20	de	de	ADP	sps00	_	23	mark	_	_
+20	de	de	ADP	sps00	ExtPos=SCONJ	23	mark	_	_
 21	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	20	fixed	_	_
 22	de	de	ADP	sps00	_	20	fixed	_	_
 23	queso	queso	NOUN	ncms000	Gender=Masc|Number=Sing	19	obl	_	_
@@ -1560,7 +1560,7 @@
 # orig_turn_id = 0728-0178
 # location = Badajoz: Valencia del Ventoso
 # turn_time = 01:47:05.92-01:47:12.28
-1	Na	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	5	mark	_	MWE=Na_más_que|MWEPOS=ADV|Ortho=Nada
+1	Na	nada	PRON	pi0cs000	ExtPos=SCONJ|Number=Sing|PronType=Neg	5	mark	_	MWE=Na_más_que|MWEPOS=ADV|Ortho=Nada
 2	más	más	ADV	rg	_	1	fixed	_	_
 3	que	que	SCONJ	cs	_	1	fixed	_	_
 4	me	yo	PRON	pc1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	_	_
@@ -2095,7 +2095,7 @@
 # orig_turn_id = 1901-0693
 # location = Guadalajara: Alboreca (Sigüenza)
 # turn_time = 00:53:58.11-00:54:03.67
-1	Así	así	ADV	_	_	5	mark	_	MWE=Así_que|MWEPOS=ADV
+1	Así	así	ADV	_	ExtPos=SCONJ	5	mark	_	MWE=Así_que|MWEPOS=ADV
 2	que	que	SCONJ	pr0cn000	_	1	fixed	_	SpaceAfter=No
 3	...	...	PUNCT	_	PunctType=Comm	5	punct	_	_
 4	Ana	Ana	PROPN	ncfs000	_	5	nsubj	_	_
@@ -2512,7 +2512,7 @@
 60	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 61	agua	agua	NOUN	nccs000	Gender=Fem|Number=Sing	57	nsubj	_	_
 62	y	y	CCONJ	cc	_	68	cc	_	_
-63	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	68	mark	_	MWE=una_vez_que|MWEPOS=SCONJ
+63	una	uno	DET	di0fs0	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	68	mark	_	MWE=una_vez_que|MWEPOS=SCONJ
 64	vez	vez	NOUN	ncfs000	_	63	fixed	_	_
 65	que	que	SCONJ	pr0cn000	_	63	fixed	_	_
 66	estaba	estar	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	68	cop	_	_
@@ -3161,7 +3161,7 @@
 107	,	,	PUNCT	fc	PunctType=Comm	106	punct	_	_
 108	por	por	ADP	sps00	_	112	case	_	_
 109	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	112	obl	_	_
-110	igual	igual	ADJ	rg	Number=Sing	112	mark	_	_
+110	igual	igual	ADJ	rg	ExtPos=SCONJ|Number=Sing	112	mark	_	_
 111	que	que	SCONJ	cs	_	110	fixed	_	_
 112	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	106	advcl	_	_
 113	y	y	CCONJ	cc	_	114	cc	_	_
@@ -6805,7 +6805,7 @@
 22	panes	pan	NUM	ncmp000	Number=Plur|NumType=Card	16	obj	_	_
 23	amasábamos	amasar	VERB	vmii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	16	advcl	_	_
 24	y	y	CCONJ	cc	_	33	cc	_	_
-25	en	en	ADP	sps00	_	28	mark	_	MWE=en_vez_de|MWEPOS=ADP
+25	en	en	ADP	sps00	ExtPos=SCONJ	28	mark	_	MWE=en_vez_de|MWEPOS=ADP
 26	vez	vez	NOUN	ncfs000	_	25	fixed	_	_
 27	de	de	ADP	sps00	_	25	fixed	_	_
 28	amasar	amasar	VERB	vmn0000	VerbForm=Inf	33	advcl	_	_
@@ -7604,7 +7604,7 @@
 8	dónde	dónde	PRON	pt000000	PronType=Int	9	obl	_	_
 9	estaba	estar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 10	España	España	PROPN	np00000	_	9	nsubj	_	_
-11	Asín	así	ADV	rg	_	18	mark	_	MWE=Asín_que|MWEPOS=SCONJ|Ortho=así
+11	Asín	así	ADV	rg	ExtPos=SCONJ	18	mark	_	MWE=Asín_que|MWEPOS=SCONJ|Ortho=así
 12	que	que	SCONJ	pr0cn000	_	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	12	punct	_	_
 14	que	que	SCONJ	pr0cn000	_	18	mark	_	_
@@ -9064,7 +9064,7 @@
 # orig_turn_id = 0728-0048
 # location = Badajoz: Valencia del Ventoso
 # turn_time = 01:47:05.92-01:47:12.28
-1	Así	así	ADV	rg	_	3	mark	_	MWE=Así_que|MWEPOS=ADV
+1	Así	así	ADV	rg	ExtPos=SCONJ	3	mark	_	MWE=Así_que|MWEPOS=ADV
 2	que	que	SCONJ	pr0cn000	_	1	fixed	_	_
 3-4	imagínate	_	_	_	_	_	_	_	_
 3	imagina	imaginar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
@@ -10303,7 +10303,7 @@
 3	iba	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	muy	mucho	ADV	_	_	5	advmod	_	_
 5	asustado	asustado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	obj	_	_
-6	de	de	ADP	_	_	10	mark	_	MWE=de_modo_que|MWEPOS=SCONJ
+6	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	MWE=de_modo_que|MWEPOS=SCONJ
 7	modo	modo	NOUN	_	_	6	fixed	_	_
 8	que	que	SCONJ	_	_	6	fixed	_	_
 9	entoes	entonces	ADV	_	_	10	advmod	_	Ortho=entonces
@@ -11157,7 +11157,7 @@
 6	noche	noche	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	rosario	rosario	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
-9	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	_
+9	una	uno	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	_
 10	vez	vez	NOUN	_	_	9	fixed	_	_
 11	que	que	SCONJ	_	_	9	fixed	_	_
 12	salgan	salir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
