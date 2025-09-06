@@ -6558,7 +6558,7 @@
 28	demasiada	demasiado	DET	di0fs0	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	29	det	_	_
 29	sal	sal	NOUN	ncfs000	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	27	punct	_	_
-31	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	det	_	_
+31	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	nsubj	_	_
 32-33	del	_	_	_	_	_	_	_	_
 32	de	de	ADP	sps00	_	34	case	_	_
 33	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -6569,7 +6569,7 @@
 38	más	más	ADV	rg	Degree=Cmp	39	advmod	_	_
 39	delgao	delgado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Ortho=delgado|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	39	punct	_	_
-41	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	det	_	_
+41	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	nsubj	_	_
 42-43	del	_	_	_	_	_	_	_	_
 42	de	de	ADP	sps00	_	44	case	_	_
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
