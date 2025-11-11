@@ -117,7 +117,7 @@
     <dep name="cop">120</dep>
     <dep name="csubj">8</dep>
     <dep name="dep">2</dep>
-    <dep name="det">743</dep>
+    <dep name="det">741</dep>
     <dep name="discourse">163</dep>
     <dep name="discourse:filler">26</dep>
     <dep name="expl:impers">5</dep>
@@ -127,7 +127,7 @@
     <dep name="flat">11</dep>
     <dep name="mark">349</dep>
     <dep name="nmod">117</dep>
-    <dep name="nsubj">344</dep>
+    <dep name="nsubj">346</dep>
     <dep name="nsubj:outer">5</dep>
     <dep name="nsubj:pass">16</dep>
     <dep name="nummod">49</dep>
