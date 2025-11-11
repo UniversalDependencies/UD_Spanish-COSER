@@ -155,7 +155,7 @@
 # location = Almería: Aulago (Gérgal)
 # turn_time = 02:05:32.86-02:05:37.42
 1	Está	estar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ahora	ahora	ADV	rg	_	1	advmod	_	MWE=ahora_mismo|MWEPOS=ADV
+2	ahora	ahora	ADV	rg	ExtPos=ADV	1	advmod	_	MWE=ahora_mismo|MWEPOS=ADV
 3	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	fixed	_	SpaceAfter=No
 4	...	...	PUNCT	_	PunctType=Comm	1	punct	_	_
 
@@ -273,7 +273,7 @@
 8	"	"	PUNCT	_	PunctSide=Fin|PunctType=Quot	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 10	que	que	SCONJ	cs	_	16	mark	_	_
-11	a	a	ADP	sps00	_	15	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+11	a	a	ADP	sps00	ExtPos=ADV	15	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 12	lo	él	PRON	pc3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	11	fixed	_	_
 13	mejor	mejor	NOUN	aqccs0	_	11	fixed	_	_
 14	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -803,7 +803,7 @@
 4	esta	este	DET	pd0fs000	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	pregunta	pregunta	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nsubj	_	_
 6	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	MWE=un_poco|MWEPOS=ADV
+7	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	MWE=un_poco|MWEPOS=ADV
 8	poco	poco	ADV	pi0ms000	_	7	fixed	_	_
 9	impertinente	impertinente	ADJ	aq0cs0	Number=Sing	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	fp	PunctType=Peri	9	punct	_	_
@@ -865,7 +865,7 @@
 # turn_time = 01:47:19.38-01:47:23.78
 1	Pero	pero	CCONJ	cc	_	9	cc	_	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	_
-3	aun	aun	ADV	rg	_	9	advmod	_	_
+3	aun	aun	ADV	rg	ExtPos=ADV	9	advmod	_	_
 4	así	así	ADV	rg	_	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	_
 6	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
@@ -1090,7 +1090,7 @@
 17	molde	molde	NOUN	ncms000	Gender=Masc|Number=Sing	12	conj	_	_
 18	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	_	_
 19	había	haber	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
-20	de	de	ADP	sps00	_	23	mark	_	_
+20	de	de	ADP	sps00	ExtPos=SCONJ	23	mark	_	_
 21	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	20	fixed	_	_
 22	de	de	ADP	sps00	_	20	fixed	_	_
 23	queso	queso	NOUN	ncms000	Gender=Masc|Number=Sing	19	obl	_	_
@@ -1144,7 +1144,7 @@
 1	Sí	sí	INTJ	rg	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 3	bueno	bueno	INTJ	i	_	9	discourse	_	_
-4	a	a	ADP	sps00	_	9	advmod	_	MWE=a_menudo|MWEPOS=ADV
+4	a	a	ADP	sps00	ExtPos=ADV	9	advmod	_	MWE=a_menudo|MWEPOS=ADV
 5	menudo	menudo	NOUN	_	_	4	fixed	_	_
 6	no	no	ADV	rn	Polarity=Neg	9	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	9	punct	_	_
@@ -1238,7 +1238,7 @@
 # orig_turn_id = 3924-0523
 # location = Soria: Beratón
 # turn_time = 01:17:57.180000-01:18:23.567007
-1	Por	por	ADP	sps00	_	5	advmod	_	MWE=Por_ejemplo|MWEPOS=ADV
+1	Por	por	ADP	sps00	ExtPos=ADV	5	advmod	_	MWE=Por_ejemplo|MWEPOS=ADV
 2	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 4	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No
@@ -1478,7 +1478,7 @@
 # turn_time = 02:04:11.12-02:04:28.00
 1	No	no	ADV	rn	Polarity=Neg	5	discourse	_	SpaceAfter=No
 2	...	...	PUNCT	_	PunctType=Comm	1	punct	_	_
-3	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	MWE=un_poco|MWEPOS=ADV
+3	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	MWE=un_poco|MWEPOS=ADV
 4	poco	poco	ADV	pi0ms000	_	3	fixed	_	_
 5	lejos	lejos	ADV	rg	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	_
@@ -1560,7 +1560,7 @@
 # orig_turn_id = 0728-0178
 # location = Badajoz: Valencia del Ventoso
 # turn_time = 01:47:05.92-01:47:12.28
-1	Na	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	5	mark	_	MWE=Na_más_que|MWEPOS=ADV|Ortho=Nada
+1	Na	nada	PRON	pi0cs000	ExtPos=SCONJ|Number=Sing|PronType=Neg	5	mark	_	MWE=Na_más_que|MWEPOS=ADV|Ortho=Nada
 2	más	más	ADV	rg	_	1	fixed	_	_
 3	que	que	SCONJ	cs	_	1	fixed	_	_
 4	me	yo	PRON	pc1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	_	_
@@ -1601,7 +1601,7 @@
 39	ni	ni	CCONJ	cc	_	40	cc	_	_
 40	na	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	37	conj	_	Ortho=nada|SpaceAfter=No
 41	,	,	PUNCT	fc	PunctType=Comm	40	punct	_	_
-42	na	nada	ADV	pi0cs000	_	51	advmod	_	Ortho=nada
+42	na	nada	ADV	pi0cs000	ExtPos=ADV	51	advmod	_	Ortho=nada
 43	más	más	ADV	rg	_	42	fixed	_	_
 44	que	que	SCONJ	cs	_	42	fixed	_	_
 45	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	46	det	_	_
@@ -1686,7 +1686,7 @@
 5	época	época	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	_
 6	de	de	ADP	sps00	_	8	mark	_	_
 7	que	que	SCONJ	cs	_	8	mark	_	_
-8	después	después	ADV	rg	_	5	advmod	_	MWE=después_que|MWEPOS=SCONJ
+8	después	después	ADV	rg	ExtPos=ADV	5	advmod	_	MWE=después_que|MWEPOS=SCONJ
 9	que	que	SCONJ	cs	_	8	fixed	_	_
 10	se	él	PRON	pc0cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pass	_	_
 11	cogía	coger	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
@@ -1889,7 +1889,7 @@
 1	Fui	ser	AUX	vsis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	cop	_	_
 2	hasta	hasta	ADP	sps00	_	5	case	_	_
 3	los	él	PRON	da0mp0	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	_
-4	catorce	catorce	NUM	az0000	Number=Plur|NumType=Card	3	nummod	_	_
+4	catorce	catorce	NUM	az0000	Number=Plur|NumType=Card	5	nummod	_	_
 5	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	8	punct	_	_
 7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -1914,7 +1914,7 @@
 4	tren	tren	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	_	_
 5	lo	él	PRON	pc3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	_
 6	utilizaban	utilizar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	por	por	ADP	sps00	_	6	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
+7	por	por	ADP	sps00	ExtPos=ADV	6	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
 8	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	7	fixed	_	_
 9	para	para	ADP	sps00	_	6	mark	_	SpaceAfter=No
 10	...	...	PUNCT	_	PunctType=Comm	6	punct	_	SpaceAfter=No
@@ -2048,7 +2048,7 @@
 39	sembrar	sembrar	VERB	vmn0000	VerbForm=Inf	36	obl	_	_
 40	y	y	CCONJ	cc	_	41	cc	_	_
 41	había	haber	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	conj	_	_
-42	a	a	ADP	sps00	_	46	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+42	a	a	ADP	sps00	ExtPos=ADV	46	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 43	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	42	fixed	_	_
 44	mejor	mejor	NOUN	rg	_	42	fixed	_	_
 45	cinco	cinco	NUM	az0000	Number=Plur|NumType=Card	46	nummod	_	_
@@ -2095,7 +2095,7 @@
 # orig_turn_id = 1901-0693
 # location = Guadalajara: Alboreca (Sigüenza)
 # turn_time = 00:53:58.11-00:54:03.67
-1	Así	así	ADV	_	_	5	mark	_	MWE=Así_que|MWEPOS=ADV
+1	Así	así	ADV	_	ExtPos=SCONJ	5	mark	_	MWE=Así_que|MWEPOS=ADV
 2	que	que	SCONJ	pr0cn000	_	1	fixed	_	SpaceAfter=No
 3	...	...	PUNCT	_	PunctType=Comm	5	punct	_	_
 4	Ana	Ana	PROPN	ncfs000	_	5	nsubj	_	_
@@ -2474,7 +2474,7 @@
 23	,	,	PUNCT	fc	PunctType=Comm	22	punct	_	_
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	caldera	caldera	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obl	_	_
-26	así	así	ADV	rg	_	28	cc	_	_
+26	así	así	ADV	rg	ExtPos=CCONJ	28	cc	_	_
 27	de	de	ADP	sps00	_	26	fixed	_	_
 28	ancha	ancha	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	_	_
 29	y	y	CCONJ	cc	_	31	cc	_	_
@@ -2512,7 +2512,7 @@
 60	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 61	agua	agua	NOUN	nccs000	Gender=Fem|Number=Sing	57	nsubj	_	_
 62	y	y	CCONJ	cc	_	68	cc	_	_
-63	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	68	mark	_	MWE=una_vez_que|MWEPOS=SCONJ
+63	una	uno	DET	di0fs0	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	68	mark	_	MWE=una_vez_que|MWEPOS=SCONJ
 64	vez	vez	NOUN	ncfs000	_	63	fixed	_	_
 65	que	que	SCONJ	pr0cn000	_	63	fixed	_	_
 66	estaba	estar	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	68	cop	_	_
@@ -3161,7 +3161,7 @@
 107	,	,	PUNCT	fc	PunctType=Comm	106	punct	_	_
 108	por	por	ADP	sps00	_	112	case	_	_
 109	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	112	obl	_	_
-110	igual	igual	ADJ	rg	Number=Sing	112	mark	_	_
+110	igual	igual	ADJ	rg	ExtPos=SCONJ|Number=Sing	112	mark	_	_
 111	que	que	SCONJ	cs	_	110	fixed	_	_
 112	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	106	advcl	_	_
 113	y	y	CCONJ	cc	_	114	cc	_	_
@@ -3463,7 +3463,7 @@
 2	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	generación	generación	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	_
-5	por	por	ADP	sps00	_	8	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
+5	por	por	ADP	sps00	ExtPos=ADV	8	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
 6	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	_	_
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
@@ -3548,7 +3548,7 @@
 2	voy	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	sps00	_	4	mark	_	_
 4	poner	poner	VERB	vmn0000	VerbForm=Inf	2	xcomp	_	_
-5	ahora	ahora	ADV	rg	_	4	advmod	_	MWE=ahora_mismo|MWEPOS=ADV
+5	ahora	ahora	ADV	rg	ExtPos=ADV	4	advmod	_	MWE=ahora_mismo|MWEPOS=ADV
 6	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	fixed	_	SpaceAfter=No
 7	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
@@ -3564,7 +3564,7 @@
 5	está	estar	AUX	vmm02s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	bien	bien	ADV	rg	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	_
-8	a	a	ADP	sps00	_	11	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+8	a	a	ADP	sps00	ExtPos=ADV	11	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 9	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	fixed	_	_
 10	mejor	mejor	NOUN	aqccs0	_	8	fixed	_	_
 11	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
@@ -4166,7 +4166,7 @@
 12	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	11	obj	_	_
 13	más	más	ADV	rg	Degree=Cmp	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
-15	o	o	CCONJ	cc	_	17	cc	_	MWE=o_sea|MWEPOS=CCONJ
+15	o	o	CCONJ	cc	ExtPos=CCONJ	17	cc	_	MWE=o_sea|MWEPOS=CCONJ
 16	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
 17	que	que	SCONJ	pr0cn000	_	11	conj	_	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	17	punct	_	_
@@ -4217,7 +4217,7 @@
 3	se	él	PRON	pc0cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pass	_	_
 4	cortaban	cortar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	_
-6	por	por	ADP	sps00	_	4	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
+6	por	por	ADP	sps00	ExtPos=ADV	4	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
 7	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	_
 9-10	al	_	_	_	_	_	_	_	_
@@ -4328,7 +4328,7 @@
 26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 27	profunda	profunda	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	27	punct	_	_
-29	o	o	CCONJ	cc	_	34	cc	_	MWE=o_sea|MWEPOS=CCONJ
+29	o	o	CCONJ	cc	ExtPos=CCONJ	34	cc	_	MWE=o_sea|MWEPOS=CCONJ
 30	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	fixed	_	_
 31	que	que	SCONJ	pr0cn000	_	34	mark	_	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -4562,7 +4562,7 @@
 # orig_turn_id = 1212-0001
 # location = Cantabria: Ledantes (Vega de Liébana)
 # turn_time = 00:43:49.70-00:43:56.25
-1	Por	por	ADP	sps00	_	7	advmod	_	MWE=Por_ejemplo|MWEPOS=ADV
+1	Por	por	ADP	sps00	ExtPos=ADV	7	advmod	_	MWE=Por_ejemplo|MWEPOS=ADV
 2	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 4	aquí	aquí	ADV	rg	_	7	advmod	_	SpaceAfter=No
@@ -4772,7 +4772,7 @@
 6	que	que	PRON	pr0cn000	_	7	nsubj	_	_
 7	llaman	llamar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	_
-9	por	por	ADP	sps00	_	13	advmod	_	_
+9	por	por	ADP	sps00	ExtPos=ADV	13	advmod	_	_
 10	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	13	punct	_	_
 12	si	si	SCONJ	cs	_	13	mark	_	_
@@ -4854,7 +4854,7 @@
 # orig_turn_id = 0924-0317
 # location = Burgos: La Horra
 # turn_time = 01:13:36.44-01:13:46.97
-1	Na	nada	ADV	pi0cs000	_	4	advmod	_	MWE=Na_más|MWEPOS=ADV|Ortho=nada
+1	Na	nada	ADV	pi0cs000	ExtPos=ADV	4	advmod	_	MWE=Na_más|MWEPOS=ADV|Ortho=nada
 2	más	más	ADV	rg	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	_
 4	venían	venir	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5228,7 +5228,7 @@
 9	instalamos	instalar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	aquí	aquí	ADV	rg	_	9	advmod	_	_
 11-12	del	_	_	_	_	_	_	_	_
-11	de	de	ADP	sps00	_	9	advmod	_	MWE=de_el_todo|MWEPOS=ADV
+11	de	de	ADP	sps00	ExtPos=ADV	9	advmod	_	MWE=de_el_todo|MWEPOS=ADV
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	11	fixed	_	SpaceAfter=No
 14	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	_
@@ -5274,7 +5274,7 @@
 5	y	y	CCONJ	cc	_	6	cc	_	_
 6	sacaba	sacar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	_
-8	o	o	CCONJ	cc	_	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
+8	o	o	CCONJ	cc	ExtPos=CCONJ	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
 9	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
 10	que	que	SCONJ	pr0cn000	_	12	obj	_	SpaceAfter=No
 11	...	...	PUNCT	_	PunctType=Comm	10	punct	_	_
@@ -5623,7 +5623,7 @@
 # turn_time = 01:15:55.00-01:15:59.04
 1	Se	él	PRON	pc0cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:pass	_	_
 2	cogían	coger	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	una	uno	PRON	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	2	advmod	_	MWE=una_a_una|MWEPOS=ADV
+3	una	uno	PRON	di0fs0	ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Ind	2	advmod	_	MWE=una_a_una|MWEPOS=ADV
 4	a	a	ADP	ncfs000	_	3	fixed	_	_
 5	una	uno	PRON	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	3	fixed	_	_
 6	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -5762,7 +5762,7 @@
 15	poca	poco	PRON	pi0fs000	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	14	punct	_	_
 17	pos	pues	SCONJ	cs	_	25	discourse	_	Ortho=pues
-18	a	a	ADP	sps00	_	25	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+18	a	a	ADP	sps00	ExtPos=ADV	25	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 19	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	18	fixed	_	_
 20	mejor	mejor	NOUN	aqccs0	_	18	fixed	_	_
 21	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
@@ -6008,7 +6008,7 @@
 30	las	él	PRON	da0fp0	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	31	obj	_	_
 31	ordeñe	ordeñar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	obl	_	_
 32	toas	todo	PRON	pi0fp000	Gender=Fem|Number=Plur|PronType=Tot	31	obl:arg	_	Ortho=todas
-33	a	a	ADP	sps00	_	31	advmod	_	MWE=a_la_vez|MWEPOS=ADV
+33	a	a	ADP	sps00	ExtPos=ADV	31	advmod	_	MWE=a_la_vez|MWEPOS=ADV
 34	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	fixed	_	_
 35	vez	vez	NOUN	ncfs000	_	33	fixed	_	SpaceAfter=No
 36	.	.	PUNCT	fp	PunctType=Peri	17	punct	_	_
@@ -6152,7 +6152,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	_
 10	entonces	entonces	ADV	_	_	11	advmod	_	_
 11	quitaban	quitar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
-12	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	advmod	_	MWE=un_poco|MWEPOS=ADV
+12	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	14	advmod	_	MWE=un_poco|MWEPOS=ADV
 13	poco	poco	ADV	rg	_	12	fixed	_	_
 14	leche	leche	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
@@ -6220,7 +6220,7 @@
 13	de	de	ADP	sps00	_	15	case	_	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	noche	noche	NOUN	ncfs000	Gender=Fem|Number=Sing	12	nmod	_	_
-16	por	por	ADP	sps00	_	12	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
+16	por	por	ADP	sps00	ExtPos=ADV	12	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
 17	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	16	fixed	_	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 19	pues	pues	SCONJ	cs	_	22	discourse	_	_
@@ -6538,7 +6538,7 @@
 9	se	él	PRON	pc0cn000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pass	_	_
 10	le	él	PRON	pc3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 11	quita	quitar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	MWE=un_poco|MWEPOS=ADV
+12	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	MWE=un_poco|MWEPOS=ADV
 13	poco	poco	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	12	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
 15	todo	todo	DET	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	16	det	_	_
@@ -6558,7 +6558,7 @@
 28	demasiada	demasiado	DET	di0fs0	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	29	det	_	_
 29	sal	sal	NOUN	ncfs000	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	27	punct	_	_
-31	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	det	_	_
+31	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	nsubj	_	_
 32-33	del	_	_	_	_	_	_	_	_
 32	de	de	ADP	sps00	_	34	case	_	_
 33	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -6569,7 +6569,7 @@
 38	más	más	ADV	rg	Degree=Cmp	39	advmod	_	_
 39	delgao	delgado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Ortho=delgado|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	39	punct	_	_
-41	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	det	_	_
+41	lo	él	PRON	pc3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	nsubj	_	_
 42-43	del	_	_	_	_	_	_	_	_
 42	de	de	ADP	sps00	_	44	case	_	_
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
@@ -6600,7 +6600,7 @@
 67	para	para	ADP	sps00	_	69	mark	_	_
 68	que	que	SCONJ	pr0cn000	_	69	mark	_	_
 69	penetre	penetrar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
-70	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	73	advmod	_	MWE=un_poco|MWEPOS=ADV
+70	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	73	advmod	_	MWE=un_poco|MWEPOS=ADV
 71	poco	poco	ADV	pi0ms000	_	70	fixed	_	_
 72	más	más	ADV	rg	Degree=Cmp	73	advmod	_	_
 73	sal	sal	NOUN	ncfs000	Gender=Fem|Number=Sing	69	nsubj	_	SpaceAfter=No
@@ -6805,7 +6805,7 @@
 22	panes	pan	NUM	ncmp000	Number=Plur|NumType=Card	16	obj	_	_
 23	amasábamos	amasar	VERB	vmii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	16	advcl	_	_
 24	y	y	CCONJ	cc	_	33	cc	_	_
-25	en	en	ADP	sps00	_	28	mark	_	MWE=en_vez_de|MWEPOS=ADP
+25	en	en	ADP	sps00	ExtPos=SCONJ	28	mark	_	MWE=en_vez_de|MWEPOS=ADP
 26	vez	vez	NOUN	ncfs000	_	25	fixed	_	_
 27	de	de	ADP	sps00	_	25	fixed	_	_
 28	amasar	amasar	VERB	vmn0000	VerbForm=Inf	33	advcl	_	_
@@ -7152,7 +7152,7 @@
 # orig_turn_id = 0106-0112
 # location = Álava: Leza
 # turn_time = 01:21:09.71-01:21:21.18
-1	A	a	ADP	sps00	_	4	advmod	_	MWE=a_mano|MWEPOS=ADV
+1	A	a	ADP	sps00	ExtPos=ADV	4	advmod	_	MWE=a_mano|MWEPOS=ADV
 2	mano	mano	NOUN	ncfs000	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	_
 4	todo	todo	PRON	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	0	root	_	SpaceAfter=No
@@ -7221,7 +7221,7 @@
 # orig_turn_id = 0106-0273
 # location = Álava: Leza
 # turn_time = 01:21:09.71-01:21:21.18
-1	Aparte	aparte	ADV	rg	_	7	advmod	_	_
+1	Aparte	aparte	ADV	rg	ExtPos=ADV	7	advmod	_	_
 2	que	que	SCONJ	pr0cn000	_	1	fixed	_	_
 3	luego	luego	ADV	rg	_	7	advmod	_	_
 4	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	det	_	MWE=lo_que|MWEPOS=PRON
@@ -7275,7 +7275,7 @@
 7	te	tú	PRON	pc2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	obj	_	_
 8	ponían	poner	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	reparandum	_	_
 9	pues	pues	SCONJ	cs	_	13	discourse	_	_
-10	a	a	ADP	sps00	_	13	advmod	_	_
+10	a	a	ADP	sps00	ExtPos=ADV	13	advmod	_	_
 11	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	10	fixed	_	_
 12	te	tú	PRON	pc2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	13	obj	_	_
 13	ponían	poner	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
@@ -7399,7 +7399,7 @@
 26	y	y	CCONJ	cc	_	28	cc	_	_
 27	lo	él	PRON	pc3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	obj	_	_
 28	dejaban	dejar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
-29	por	por	ADP	sps00	_	28	advmod	_	_
+29	por	por	ADP	sps00	ExtPos=ADV	28	advmod	_	_
 30	ahí	ahí	ADV	rg	_	29	fixed	_	_
 31	meter	meter	VERB	vmn0000	VerbForm=Inf	28	advcl	_	_
 32	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -7595,7 +7595,7 @@
 # location = Sevilla: Alanís
 # turn_time = 02:26:51.93-02:27:03.00
 1	Allí	allí	ADV	rg	_	5	advmod	_	_
-2	na	nada	ADV	pi0cs000	_	5	advmod	_	MWE=na_más_que|MWEPOS=ADV|Ortho=nada
+2	na	nada	ADV	pi0cs000	ExtPos=ADV	5	advmod	_	MWE=na_más_que|MWEPOS=ADV|Ortho=nada
 3	más	más	ADV	rg	Degree=Cmp	2	fixed	_	_
 4	que	que	SCONJ	pr0cn000	_	2	fixed	_	_
 5	mirando	mirar	VERB	vmg0000	VerbForm=Ger	0	root	_	_
@@ -7604,7 +7604,7 @@
 8	dónde	dónde	PRON	pt000000	PronType=Int	9	obl	_	_
 9	estaba	estar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 10	España	España	PROPN	np00000	_	9	nsubj	_	_
-11	Asín	así	ADV	rg	_	18	mark	_	MWE=Asín_que|MWEPOS=SCONJ|Ortho=así
+11	Asín	así	ADV	rg	ExtPos=SCONJ	18	mark	_	MWE=Asín_que|MWEPOS=SCONJ|Ortho=así
 12	que	que	SCONJ	pr0cn000	_	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	12	punct	_	_
 14	que	que	SCONJ	pr0cn000	_	18	mark	_	_
@@ -7975,7 +7975,7 @@
 39	qué	qué	PRON	pt0cn000	PronType=Int	41	obj	_	_
 40	me	yo	PRON	pc1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	41	expl:pv	_	_
 41	traes	traer	VERB	vmip2s0	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	parataxis	_	_
-42	de	de	ADP	spc00	_	41	advmod	_	MWE=de_nuevo|MWEPOS=ADV
+42	de	de	ADP	spc00	ExtPos=ADV	41	advmod	_	MWE=de_nuevo|MWEPOS=ADV
 43	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	42	fixed	_	SpaceAfter=No
 44	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	43	punct	_	SpaceAfter=No
 45	"	"	PUNCT	_	PunctSide=Fin|PunctType=Quot	1	punct	_	_
@@ -8104,7 +8104,7 @@
 6	las	el	DET	pc3fpa00	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	bestias	bestia	NOUN	nccp000	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	_
-9	o	o	CCONJ	cc	_	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
+9	o	o	CCONJ	cc	ExtPos=CCONJ	12	cc	_	MWE=o_sea|MWEPOS=CCONJ
 10	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	7	conj	_	_
@@ -8534,7 +8534,7 @@
 4	te	tú	PRON	pc2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obl:arg	_	_
 5	expliques	expliquer	VERB	vmip2s0	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 6	aquí	aquí	ADV	rg	_	5	advmod	_	_
-7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	MWE=un_poco|MWEPOS=ADV
+7	un	uno	DET	di0ms0	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	MWE=un_poco|MWEPOS=ADV
 8	poco	poco	ADV	pi0ms000	_	7	fixed	_	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	5	punct	_	_
 10	ven	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -8562,7 +8562,7 @@
 # orig_turn_id = 1232-0316
 # location = Cantabria: Vega de Pas
 # turn_time = 01:07:01.56-01:07:09.55
-1	A	a	ADP	sps00	_	3	advmod	_	MWE=a_mano|MWEPOS=ADV
+1	A	a	ADP	sps00	ExtPos=ADV	3	advmod	_	MWE=a_mano|MWEPOS=ADV
 2	mano	mano	NOUN	ncfs000	_	1	fixed	_	_
 3	ibas	ir	VERB	vmii2s0	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	y	y	CCONJ	cc	_	5	cc	_	_
@@ -8580,7 +8580,7 @@
 16	pes	pes	X	fs	_	22	reparandum	_	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 18	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj:pass	_	_
-19	a	a	ADP	sps00	_	22	advmod	_	MWE=_a_mano|MWEPOS=ADV
+19	a	a	ADP	sps00	ExtPos=ADV	22	advmod	_	MWE=_a_mano|MWEPOS=ADV
 20	mano	mano	NOUN	ncfs000	_	19	fixed	_	_
 21	he	haber	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 22	pescao	pescar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	Ortho=pescado
@@ -8600,7 +8600,7 @@
 6-7	ordeñarlas	_	_	_	_	_	_	_	_
 6	ordeñar	ordeñar	VERB	vmn0000	VerbForm=Inf	4	advcl	_	_
 7	las	él	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	_
-8	a	a	ADP	sps00	_	6	advmod	_	MWE=a_diario|MWEPOS=ADV
+8	a	a	ADP	sps00	ExtPos=ADV	6	advmod	_	MWE=a_diario|MWEPOS=ADV
 9	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
 10	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	4	punct	_	_
 
@@ -8691,7 +8691,7 @@
 2	usté	tú	PRON	pp2cs00p	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	Ortho=usted|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 4	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-5	a	a	ADP	sps00	_	8	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+5	a	a	ADP	sps00	ExtPos=ADV	8	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 6	lo	él	PRON	pc3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	fixed	_	_
 7	mejor	mejor	NOUN	aqccs0	_	5	fixed	_	_
 8	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
@@ -8876,7 +8876,7 @@
 34	,	,	PUNCT	fc	PunctType=Comm	32	punct	_	_
 35	o	o	CCONJ	cc	_	37	reparandum	_	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	35	punct	_	_
-37	en	en	ADP	sps00	_	45	advmod	_	_
+37	en	en	ADP	sps00	ExtPos=ADV	45	advmod	_	_
 38	fin	fin	NOUN	ncms000	_	37	fixed	_	SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	37	punct	_	_
 40	dos	dos	NUM	az0000	Number=Plur|NumType=Card	43	nummod	_	_
@@ -8930,7 +8930,7 @@
 # location = Tarragona: Tivissa
 # turn_time = 02:05:55.29-02:06:01.92
 1	Aquí	aquí	ADV	rg	_	6	advmod	_	_
-2	a	a	ADP	sps00	_	6	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
+2	a	a	ADP	sps00	ExtPos=ADV	6	advmod	_	MWE=a_lo_mejor|MWEPOS=ADV
 3	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	fixed	_	_
 4	mejor	mejor	NOUN	aqccs0	_	2	fixed	_	_
 5	hubieras	haber	AUX	vmsi2s0	Mood=Sub|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
@@ -9064,7 +9064,7 @@
 # orig_turn_id = 0728-0048
 # location = Badajoz: Valencia del Ventoso
 # turn_time = 01:47:05.92-01:47:12.28
-1	Así	así	ADV	rg	_	3	mark	_	MWE=Así_que|MWEPOS=ADV
+1	Así	así	ADV	rg	ExtPos=SCONJ	3	mark	_	MWE=Así_que|MWEPOS=ADV
 2	que	que	SCONJ	pr0cn000	_	1	fixed	_	_
 3-4	imagínate	_	_	_	_	_	_	_	_
 3	imagina	imaginar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
@@ -9147,7 +9147,7 @@
 # location = Badajoz: La Garrovilla
 # turn_time = 00:59:35.52-00:59:42.00
 1	Y	y	CCONJ	cc	_	7	cc	_	_
-2	a	a	ADP	sps00	_	5	case	_	MWE=a_partir_de|MWEPOS=ADP
+2	a	a	ADP	sps00	ExtPos=ADP	5	case	_	MWE=a_partir_de|MWEPOS=ADP
 3	partir	partir	VERB	vmn0000	VerbForm=Inf	2	fixed	_	_
 4	de	de	ADP	sps00	_	2	fixed	_	_
 5	ahí	ahí	ADV	rg	_	7	advmod	_	_
@@ -9741,7 +9741,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	_
 7	tú	tú	PRON	pp2csn00	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	ves	ver	VERB	ncfp000	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	na	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	8	advmod	_	MWE=na_más_que|MWEPOS=ADV|Ortho=nada
+9	na	nada	PRON	pi0cs000	ExtPos=ADV|Number=Sing|PronType=Neg	8	advmod	_	MWE=na_más_que|MWEPOS=ADV|Ortho=nada
 10	más	más	ADV	rg	Degree=Cmp	9	fixed	_	_
 11	que	que	SCONJ	pr0cn000	_	9	fixed	_	_
 12	a	a	ADP	sps00	_	13	case	_	_
@@ -10011,7 +10011,7 @@
 1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-4	en	en	ADP	_	_	6	advmod	_	MWE=en_general|MWEPOS=ADV
+4	en	en	ADP	_	ExtPos=ADV	6	advmod	_	MWE=en_general|MWEPOS=ADV
 5	general	general	ADV	_	_	4	fixed	_	_
 6	alaben	alabir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	con	con	ADP	_	_	8	case	_	_
@@ -10190,7 +10190,7 @@
 # time = 00:03:52,554--> 00:04:02,660
 # location = Corrales-Boyacá
 # text = Tal vez que no les dará muy buen resultado.
-1	Tal	tal	NOUN	_	_	6	advmod	_	MWE=tal_vez|MWEPOS=ADV
+1	Tal	tal	NOUN	_	ExtPos=ADV	6	advmod	_	MWE=tal_vez|MWEPOS=ADV
 2	vez	vez	NOUN	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -10303,7 +10303,7 @@
 3	iba	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	muy	mucho	ADV	_	_	5	advmod	_	_
 5	asustado	asustado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	obj	_	_
-6	de	de	ADP	_	_	10	mark	_	MWE=de_modo_que|MWEPOS=SCONJ
+6	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	MWE=de_modo_que|MWEPOS=SCONJ
 7	modo	modo	NOUN	_	_	6	fixed	_	_
 8	que	que	SCONJ	_	_	6	fixed	_	_
 9	entoes	entonces	ADV	_	_	10	advmod	_	Ortho=entonces
@@ -10660,7 +10660,7 @@
 9	música	música	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 10	en	en	ADP	_	_	13	case	_	_
 11	esos	ese	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
-12	dos	dos	NUM	_	Number=Plur|NumType=Card	11	nummod	_	_
+12	dos	dos	NUM	_	Number=Plur|NumType=Card	13	nummod	_	_
 13	días	día	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
@@ -10957,7 +10957,7 @@
 # time = 00:02:58,330--> 00:03:16,000
 # location = Corrales-Boyacá
 # text = Más o menos, como poco rival se lleva las unas con las otras.
-1	Más	más	ADV	_	Degree=Cmp	9	advmod	_	_
+1	Más	más	ADV	_	Degree=Cmp|ExtPos=ADV	9	advmod	_	_
 2	o	o	CCONJ	_	_	1	fixed	_	_
 3	menos	menos	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
@@ -11000,7 +11000,7 @@
 # location = Siachoque-Boyacá
 # text = Y respecto de, de la carne...
 1	Y	y	CCONJ	_	_	2	cc	_	_
-2	respecto	respecto	NOUN	_	_	7	case	_	_
+2	respecto	respecto	NOUN	_	ExtPos=ADP	7	case	_	_
 3	de	de	ADP	_	_	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	de	de	ADP	_	_	2	reparandum	_	_
@@ -11128,7 +11128,7 @@
 13	café	café	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	leche	leche	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-16	a	a	ADP	_	_	13	advmod	_	MWE=a_veces|MWEPOS=ADV
+16	a	a	ADP	_	ExtPos=ADV	13	advmod	_	MWE=a_veces|MWEPOS=ADV
 17	veces	veces	NOUN	_	_	16	fixed	_	SpaceAfter=No
 18	...	...	PUNCT	_	PunctType=Comm	19	punct	_	_
 19	pecado	pecado	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	Ortho=pescado
@@ -11157,7 +11157,7 @@
 6	noche	noche	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	rosario	rosario	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
-9	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	_
+9	una	uno	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	_
 10	vez	vez	NOUN	_	_	9	fixed	_	_
 11	que	que	SCONJ	_	_	9	fixed	_	_
 12	salgan	salir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
