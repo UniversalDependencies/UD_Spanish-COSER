@@ -10131,7 +10131,7 @@
 18	algunas	alguno	DET	_	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
 19	hortalizas	hortaliza	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 20	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	21	punct	_	SpaceAfter=No
-21	como	como	SCONJ	_	PronType=Int	22	mark	_	_
+21	como	como	SCONJ	_	_	22	mark	_	_
 22	cuáles	cuál	PRON	_	Number=Plur|PronType=Int,Rel	5	parataxis	_	SpaceAfter=No
 23	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	5	punct	_	_
 
