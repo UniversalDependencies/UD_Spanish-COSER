@@ -4769,7 +4769,7 @@
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	obra	obra	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	_	_
 5	blanca	blanca	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	_
-6	que	que	PRON	pr0cn000	_	7	nsubj	_	_
+6	que	que	PRON	pr0cn000	PronType=Rel	7	nsubj	_	_
 7	llaman	llamar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	_
 9	por	por	ADP	sps00	ExtPos=ADV	13	advmod	_	_
@@ -10703,7 +10703,7 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	gobierno	gobierno	PROPN	_	_	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
-23	lo	lo	DET	_	Gender=Masc|Number=Plur	24	det	_	Ortho=los
+23	lo	lo	DET	_	Gender=Masc|Number=Plur|PronType=Art	24	det	_	Ortho=los
 24	pequeños	pequeño	ADJ	_	Gender=Masc|Number=Plur	11	appos	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 26	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	27	punct	_	SpaceAfter=No
