@@ -73,7 +73,7 @@
     <feat name="PronType" value="Dem" upos="DET,PRON">127</feat><!-- eso, esto, esta, esos, esas, ese, esa, estas, aquel, este -->
     <feat name="PronType" value="Exc" upos="PRON">2</feat><!-- Qué -->
     <feat name="PronType" value="Ind" upos="DET,PRON">112</feat><!-- otro, otra, mucha, mucho, algo, otros, uno, muchos, una, poco -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON,SCONJ">79</feat><!-- cómo, qué, dónde, cuándo, Cuántos, quién, como, cuantos -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">78</feat><!-- cómo, qué, dónde, cuándo, Cuántos, quién, cuantos -->
     <feat name="PronType" value="Int,Rel" upos="DET,PRON">10</feat><!-- que, cuál, cuáles, qué -->
     <feat name="PronType" value="Neg" upos="DET,PRON">14</feat><!-- nada, na, nadie, ninguno, ningún -->
     <feat name="PronType" value="Prs" upos="DET,PRON">611</feat><!-- se, lo, yo, le, te, me, mi, los, la, nos -->
@@ -101,8 +101,8 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
-    <dep name="acl">9</dep>
-    <dep name="acl:relcl">29</dep>
+    <dep name="acl">5</dep>
+    <dep name="acl:relcl">33</dep>
     <dep name="advcl">286</dep>
     <dep name="advmod">667</dep>
     <dep name="amod">87</dep>
