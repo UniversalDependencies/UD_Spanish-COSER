@@ -7541,7 +7541,7 @@
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	que	que	SCONJ	pr0cn000	_	13	mark	_	_
 12	fueran	ser	AUX	vssi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
-13	malos	malo	ADJ	aq0mp0	Gender=Masc|Number=Plur	1	ccomp	_	_
+13	malos	mal	ADJ	aq0mp0	Gender=Masc|Number=Plur	1	ccomp	_	_
 14	ni	ni	CCONJ	cc	_	16	cc	_	_
 15	que	que	SCONJ	pr0cn000	_	16	mark	_	_
 16	fueran	ser	AUX	vssi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	SpaceAfter=No
@@ -11320,7 +11320,7 @@
 2	no	no	ADV	_	Polarity=Neg	5	advmod	_	_
 3	sea	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	tan	tanto	ADV	_	_	5	advmod	_	_
-5	mala	malo	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+5	mala	mal	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 6	ni	ni	CCONJ	_	_	8	cc	_	_
 7	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	8	obj	_	_
 8	crea	creer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_

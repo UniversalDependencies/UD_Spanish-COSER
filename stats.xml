@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>539</sentences><tokens>7987</tokens><words>8073</words><fused>85</fused></test>
   </size>
-  <lemmas unique="1040" /><!-- ,, el, él, ., y, que, de, a, ser, no, uno, ?, ¿, yo, haber -->
+  <lemmas unique="1039" /><!-- ,, el, él, ., y, que, de, a, ser, no, uno, ?, ¿, yo, haber -->
   <forms unique="1508" /><!-- ,, ., y, que, de, la, a, no, el, ?, ¿, se, ..., lo, en -->
   <fusions unique="38" /><!-- al, del, velo, cuéntenos, darle, estirarlo, imagínate, acórdome, aguantalo, bañarse, buscalas, casarme, cocela, cogerlas, cogerse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
