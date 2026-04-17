@@ -10,12 +10,12 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>539</sentences><tokens>7987</tokens><words>8073</words><fused>85</fused></test>
   </size>
-  <lemmas unique="1041" /><!-- ,, el, él, ., y, que, de, a, ser, no, uno, ?, ¿, yo, haber -->
+  <lemmas unique="1040" /><!-- ,, el, él, ., y, que, de, a, ser, no, uno, ?, ¿, yo, haber -->
   <forms unique="1508" /><!-- ,, ., y, que, de, la, a, no, el, ?, ¿, se, ..., lo, en -->
   <fusions unique="38" /><!-- al, del, velo, cuéntenos, darle, estirarlo, imagínate, acórdome, aguantalo, bañarse, buscalas, casarme, cocela, cogerlas, cogerse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">173</tag><!-- bueno, grande, buena, natural, diferente, bonito, criollo, joven, mismo, primero -->
+    <tag name="ADJ">173</tag><!-- buen, grande, natural, diferente, bonito, criollo, joven, mismo, primero, Enrazao -->
     <tag name="ADP">660</tag><!-- de, a, en, por, para, con, hasta, desde, sin, entre -->
     <tag name="ADV">701</tag><!-- no, ya, aquí, más, mucho, ahora, ahí, así, entonces, luego -->
     <tag name="AUX">263</tag><!-- ser, haber, estar, poder, soler, querer -->
@@ -69,7 +69,7 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">46</feat><!-- mi, su, sus, mía, mío, mis, mí, nuestro, tus -->
     <feat name="PrepCase" value="Npr" upos="PRON">382</feat><!-- se, lo, te, me, los, la, nos, las, m, mos -->
     <feat name="PrepCase" value="Pre" upos="PRON">6</feat><!-- mí -->
-    <feat name="PronType" value="Art" upos="DET">562</feat><!-- la, el, un, una, las, los, unos, unas, l -->
+    <feat name="PronType" value="Art" upos="DET">563</feat><!-- la, el, un, una, las, los, unos, unas, l, lo -->
     <feat name="PronType" value="Dem" upos="DET,PRON">127</feat><!-- eso, esto, esta, esos, esas, ese, esa, estas, aquel, este -->
     <feat name="PronType" value="Exc" upos="PRON">2</feat><!-- Qué -->
     <feat name="PronType" value="Ind" upos="DET,PRON">112</feat><!-- otro, otra, mucha, mucho, algo, otros, uno, muchos, una, poco -->
@@ -77,7 +77,7 @@
     <feat name="PronType" value="Int,Rel" upos="DET,PRON">10</feat><!-- que, cuál, cuáles, qué -->
     <feat name="PronType" value="Neg" upos="DET,PRON">14</feat><!-- nada, na, nadie, ninguno, ningún -->
     <feat name="PronType" value="Prs" upos="DET,PRON">611</feat><!-- se, lo, yo, le, te, me, mi, los, la, nos -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">54</feat><!-- que, donde, quien, cuantas -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">55</feat><!-- que, donde, quien, cuantas -->
     <feat name="PronType" value="Tot" upos="DET,PRON">72</feat><!-- todo, todos, to, cada, todas, tos, toda, toa, toas -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">182</feat><!-- ?, !, ", ) -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">178</feat><!-- ¿, ", ¡, ( -->

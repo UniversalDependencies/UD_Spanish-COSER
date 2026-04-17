@@ -392,7 +392,7 @@
 11	una	uno	DET	pi0fs000	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	fuente	fuente	NOUN	ncfs000	Gender=Fem|Number=Sing	10	obj	_	_
 13	muy	mucho	ADV	rg	_	14	advmod	_	_
-14	buena	buena	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	_	_
+14	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	_	_
 15	y	y	CCONJ	cc	_	20	cc	_	_
 16	se	él	PRON	pc3cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	_	_
 17	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	reparandum	_	SpaceAfter=No
@@ -414,7 +414,7 @@
 # location = Asturias: Fechaladrona - Villoria (Laviana)
 # turn_time = 01:27:22.38-01:27:37.057778
 1	tá	estar	AUX	vmm02s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	Ortho=está
-2	bueno	bueno	ADJ	i	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	bueno	buen	ADJ	i	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
 # sent_id = astu-593
@@ -948,7 +948,7 @@
 4	ha	haber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	Ortho=he
 5	sío	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	Ortho=sido
 6	muy	mucho	ADV	rg	_	7	advmod	_	_
-7	buena	buena	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	_	_
+7	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	_	_
 8	pa	para	ADP	sps00	_	10	case	_	Ortho=para
 9	mis	mi	DET	dp1cps	Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	hijos	hijo	NOUN	ncmp000	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
@@ -1570,7 +1570,7 @@
 8	Si	si	SCONJ	cs	_	12	mark	_	_
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	buen	bueno	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	_	_
+11	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	_	_
 12	chico	chico	NOUN	ncms000	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 14	y	y	CCONJ	cc	_	16	cc	_	_
@@ -1609,7 +1609,7 @@
 47	,	,	PUNCT	fc	PunctType=Comm	46	punct	_	_
 48	que	que	SCONJ	cs	_	49	reparandum	_	_
 49	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
-50	buena	buena	ADJ	aq0fs0	Gender=Fem|Number=Sing	51	amod	_	_
+50	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	51	amod	_	_
 51	persona	persona	NOUN	ncfs000	Gender=Fem|Number=Sing	40	conj	_	SpaceAfter=No
 52	,	,	PUNCT	fc	PunctType=Comm	54	punct	_	_
 53	y	y	CCONJ	cc	_	54	cc	_	_
@@ -2988,7 +2988,7 @@
 7	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	10	nsubj	_	_
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	muy	mucho	ADV	rg	_	10	advmod	_	_
-10	bueno	bueno	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
+10	bueno	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
 # sent_id = vale-119
@@ -3150,7 +3150,7 @@
 96	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	98	cop	_	Ortho=son
 97	unas	uno	DET	di0fp0	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	98	det	_	_
 98	palabras	palabra	NOUN	ncfp000	Gender=Fem|Number=Plur	89	parataxis	_	_
-99	buenas	buena	ADJ	aq0fp0	Gender=Fem|Number=Plur	98	amod	_	_
+99	buenas	buen	ADJ	aq0fp0	Gender=Fem|Number=Plur	98	amod	_	_
 100	y	y	CCONJ	cc	_	102	cc	_	_
 101	todo	todo	DET	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	102	det	_	_
 102	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	98	conj	_	SpaceAfter=No
@@ -3296,7 +3296,7 @@
 5	ellas	él	PRON	pp3fp000	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 6	llevaron	llevar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
-8	buen	bueno	ADJ	aq0ms0	Number=Sing	9	amod	_	_
+8	buen	buen	ADJ	aq0ms0	Number=Sing	9	amod	_	_
 9	dote	dote	NOUN	vmm03s0	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	14	punct	_	_
 11	porque	porque	SCONJ	cs	_	14	mark	_	_
@@ -3919,7 +3919,7 @@
 1	Y	y	CCONJ	cc	_	2	cc	_	_
 2	salen	salir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mu	mucho	ADV	rg	_	4	advmod	_	Ortho=muy
-4	buenos	bueno	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	buenos	buen	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
 # sent_id = astu-263
@@ -6765,7 +6765,7 @@
 106	gente	gente	NOUN	ncfs000	Gender=Fem|Number=Sing	104	obj	_	_
 107	como	como	SCONJ	cs	_	108	mark	_	_
 108	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	104	advcl	_	_
-109	buen	bueno	ADJ	aq0ms0	Gender=Masc|Number=Sing	110	amod	_	_
+109	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	110	amod	_	_
 110	precio	precio	NOUN	ncms000	Gender=Masc|Number=Sing	108	obj	_	SpaceAfter=No
 111	,	,	PUNCT	fc	PunctType=Comm	108	punct	_	_
 112	pues	pues	SCONJ	cs	_	114	mark	_	_
@@ -8430,7 +8430,7 @@
 10	y	y	CCONJ	cc	_	13	cc	_	_
 11	pa	para	ADP	sps00	_	12	reparandum	_	Ortho=para
 12	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	bueno	bueno	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+13	bueno	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	_	_
 15	por	por	ADP	sps00	_	17	case	_	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -8719,7 +8719,7 @@
 7	vino	vino	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	5	punct	_	_
 9	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	buen	bueno	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	_	_
+10	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	_	_
 11	vaso	vaso	NOUN	ncms000	Gender=Masc|Number=Sing	5	appos	_	_
 12	de	de	ADP	sps00	_	13	case	_	_
 13	vino	vino	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -8984,7 +8984,7 @@
 1	Más	más	ADV	rg	Degree=Cmp	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 3	más	más	ADV	rg	Degree=Cmp	4	advmod	_	_
-4	buena	buena	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	_	_
+4	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	_	_
 5	que	que	SCONJ	pr0cn000	_	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	_	_
 7	que	que	SCONJ	pr0cn000	_	9	mark	_	_
@@ -10812,7 +10812,7 @@
 # time = 00:03:12,732--> 00:04:05,832
 # location = Río de Oro-Cesar
 # text = Bueno al día siguiente aurora, mejor dicho el nueve aurora mm corría eh recorrido de la banda por todas las calles de la población misa de seis, de siete y de ocho, y a las nueve la misa general con la asistencia de todos los colegios.
-1	Bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	6	discourse	_	_
+1	Bueno	buen	ADJ	_	Gender=Masc|Number=Sing	6	discourse	_	_
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	4	case	_	_
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
