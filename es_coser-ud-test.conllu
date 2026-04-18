@@ -10072,7 +10072,7 @@
 3	y	y	CCONJ	_	_	6	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	y	y	CCONJ	_	_	6	cc	_	_
-6	no	no	ADV	_	Polarity=Neg	2	advmod	_	_
+6	no	no	ADV	rn	Polarity=Neg	2	advmod	_	_
 7	más	más	ADV	_	Degree=Cmp	6	advmod	_	_
 
 # sent_id = ALEC_C14_Ca1_4-19
@@ -10193,7 +10193,7 @@
 1	Tal	tal	NOUN	_	ExtPos=ADV	6	advmod	_	MWE=tal_vez|MWEPOS=ADV
 2	vez	vez	NOUN	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
-4	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
+4	no	no	ADV	rn	Polarity=Neg	6	advmod	_	_
 5	les	él	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	obl:arg	_	_
 6	dará	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	muy	mucho	ADV	_	_	9	advmod	_	_
@@ -10392,7 +10392,7 @@
 25	otra	otro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
 26	capilla	capilla	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
 27	como	como	SCONJ	_	_	29	mark	_	_
-28	no	no	ADV	_	Polarity=Neg	29	advmod	_	_
+28	no	no	ADV	rn	Polarity=Neg	29	advmod	_	_
 29	trajeron	traer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	35	advcl	_	_
 30	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	viejos	viejo	ADJ	_	Gender=Masc|Number=Plur	29	obj	_	_
@@ -10591,9 +10591,9 @@
 # time = 00:00:02,190--> 00:00:23,050
 # location = Ocaña-Norte de Santander
 # text = No, no.
-1	No	no	ADV	_	Polarity=Neg	0	root	_	SpaceAfter=No
+1	No	no	ADV	rn	Polarity=Neg	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
-3	no	no	ADV	_	Polarity=Neg	1	discourse	_	SpaceAfter=No
+3	no	no	ADV	rn	Polarity=Neg	1	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = ALEC_C27_S3_1-12
@@ -10695,7 +10695,7 @@
 13	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	costa	costa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	todavía	todavía	ADV	_	_	17	advmod	_	_
-16	no	no	ADV	_	Polarity=Neg	17	advmod	_	_
+16	no	no	ADV	rn	Polarity=Neg	17	advmod	_	_
 17	tenemos	tener	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 18	ayuda	ayuda	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 19-20	del	_	_	_	_	_	_	_	_
@@ -10707,7 +10707,7 @@
 24	pequeños	pequeño	ADJ	_	Gender=Masc|Number=Plur	11	appos	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 26	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	27	punct	_	SpaceAfter=No
-27	No	no	ADV	_	Polarity=Neg	17	advcl	_	SpaceAfter=No
+27	No	no	ADV	rn	Polarity=Neg	17	advcl	_	SpaceAfter=No
 28	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	4	punct	_	_
 
 # sent_id = ALEC_C14_Ce20_1-17-2
@@ -10743,7 +10743,7 @@
 5	por	por	ADP	_	_	6	case	_	_
 6	acá	acá	ADV	_	_	4	obl	_	_
 7	como	como	SCONJ	_	_	11	mark	_	_
-8	no	no	ADV	_	Polarity=Neg	11	advmod	_	_
+8	no	no	ADV	rn	Polarity=Neg	11	advmod	_	_
 9	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 11	natural	natural	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
@@ -10990,7 +10990,7 @@
 11	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	16	punct	_	SpaceAfter=No
 12	a	a	ADP	_	_	13	case	_	_
 13	Munguí	munguí	PROPN	_	Gender=Masc|Number=Sing	16	obl:arg	_	_
-14	no	no	ADV	_	Polarity=Neg	16	advmod	_	_
+14	no	no	ADV	rn	Polarity=Neg	16	advmod	_	_
 15	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	16	obj	_	_
 16	conoce	conocer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 17	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	16	punct	_	_
@@ -11317,7 +11317,7 @@
 # location = Santo Domingo-Antioquia
 # text = comadre no sea tan mala ni me crea tan
 1	comadre	comadre	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	no	no	ADV	_	Polarity=Neg	5	advmod	_	_
+2	no	no	ADV	rn	Polarity=Neg	5	advmod	_	_
 3	sea	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	tan	tanto	ADV	_	_	5	advmod	_	_
 5	mala	mal	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
