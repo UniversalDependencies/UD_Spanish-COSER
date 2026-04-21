@@ -104,12 +104,12 @@
     <dep name="acl">5</dep>
     <dep name="acl:relcl">33</dep>
     <dep name="advcl">286</dep>
-    <dep name="advmod">667</dep>
+    <dep name="advmod">655</dep>
     <dep name="amod">87</dep>
     <dep name="appos">20</dep>
     <dep name="aux">40</dep>
     <dep name="aux:pass">44</dep>
-    <dep name="case">515</dep>
+    <dep name="case">531</dep>
     <dep name="cc">410</dep>
     <dep name="ccomp">62</dep>
     <dep name="compound">17</dep>
@@ -123,7 +123,7 @@
     <dep name="expl:impers">5</dep>
     <dep name="expl:pass">51</dep>
     <dep name="expl:pv">84</dep>
-    <dep name="fixed">101</dep>
+    <dep name="fixed">85</dep>
     <dep name="flat">11</dep>
     <dep name="mark">351</dep>
     <dep name="nmod">123</dep>
@@ -132,7 +132,7 @@
     <dep name="nsubj:pass">16</dep>
     <dep name="nummod">49</dep>
     <dep name="obj">515</dep>
-    <dep name="obl">304</dep>
+    <dep name="obl">316</dep>
     <dep name="obl:arg">94</dep>
     <dep name="parataxis">37</dep>
     <dep name="punct">1615</dep>
