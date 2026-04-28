@@ -54,7 +54,7 @@
 22	y	y	CCONJ	cc	_	25	cc	_	_
 23	luego	luego	ADV	rg	_	25	advmod	_	_
 24	otra	otro	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
-25	redonda	redonda	ADJ	ncfs000	Gender=Fem|Number=Sing	16	conj	_	_
+25	redonda	redondo	ADJ	ncfs000	Gender=Fem|Number=Sing	16	conj	_	_
 
 # sent_id = anda-294-2
 # text = le pintaba, oy, ya ves tú cómo pintaría, y el pelo era de lana de los colchones, que hay lana negra pues de eso le ponía y le daba cuatro puntos.
@@ -85,7 +85,7 @@
 22	que	que	SCONJ	pr0cn000	_	23	mark	_	_
 23	hay	haber	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
 24	lana	lana	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	_	_
-25	negra	negra	ADJ	aq0fs0	Gender=Fem|Number=Sing	24	amod	_	_
+25	negra	negro	ADJ	aq0fs0	Gender=Fem|Number=Sing	24	amod	_	_
 26	pues	pues	SCONJ	cs	_	30	mark	_	_
 27	de	de	ADP	sps00	_	28	case	_	_
 28	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	30	obj	_	_
@@ -223,7 +223,7 @@
 11	que	que	PRON	cs	PronType=Rel	12	obj	_	_
 12	hay	haber	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 13	aquí	aquí	ADV	rg	_	14	advmod	_	_
-14	roja	roja	ADJ	aq0fs0	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+14	roja	rojo	ADJ	aq0fs0	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 15	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	_
 
 # sent_id = arag-369
@@ -510,7 +510,7 @@
 7	fui	ser	AUX	vsis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	_
 8	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	10	obl	_	_
-10	sola	sola	ADJ	aq0fs0	Gender=Fem|Number=Sing	7	amod	_	_
+10	sola	solo	ADJ	aq0fs0	Gender=Fem|Number=Sing	7	amod	_	_
 11	a	a	ADP	sps00	_	12	case	_	_
 12	Madrid	Madrid	PROPN	np00000	_	10	nmod	_	_
 13	porque	porque	SCONJ	cs	_	14	mark	_	_
@@ -2461,7 +2461,7 @@
 10	caldera	caldera	NOUN	ncfs000	Gender=Fem|Number=Sing	13	reparandum	_	_
 11	de	de	ADP	sps00	_	10	case	_	SpaceAfter=No
 12	...	...	PUNCT	_	PunctType=Comm	11	punct	_	_
-13	preciosa	preciosa	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	_	_
+13	preciosa	precioso	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	_	_
 14	de	de	ADP	sps00	_	15	case	_	_
 15	esas	ese	PRON	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	6	nmod	_	_
 16	de	de	ADP	sps00	_	18	reparandum	_	SpaceAfter=No
@@ -2476,7 +2476,7 @@
 25	caldera	caldera	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obl	_	_
 26	así	así	ADV	rg	ExtPos=CCONJ	28	cc	_	_
 27	de	de	ADP	sps00	_	26	fixed	_	_
-28	ancha	ancha	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	_	_
+28	ancha	ancho	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	_	_
 29	y	y	CCONJ	cc	_	31	cc	_	_
 30	entonces	entonces	ADV	rg	_	31	advmod	_	_
 31	cociendo	cocer	VERB	vmg0000	VerbForm=Ger	1	conj	_	_
@@ -2971,7 +2971,7 @@
 3	caliente	caliente	ADJ	aq0cs0	Number=Sing	2	amod	_	_
 4	a	a	ADP	sps00	_	6	case	_	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	cáustica	cáustica	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+6	cáustica	cáustico	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 7	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
 # sent_id = rioj-574
@@ -3191,7 +3191,7 @@
 # turn_time = 00:58:48.090000-00:59:30.630816
 1	Las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	maderas	madera	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nsubj	_	_
-3	viejas	vieja	ADJ	aq0fp0	Gender=Fem|Number=Plur	2	amod	_	_
+3	viejas	viejo	ADJ	aq0fp0	Gender=Fem|Number=Plur	2	amod	_	_
 4	siempre	siempre	ADV	rg	_	5	advmod	_	_
 5	llevan	llevar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	clavos	clavo	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
@@ -4326,7 +4326,7 @@
 24	pero	pero	CCONJ	cc	_	27	cc	_	_
 25	que	que	PRON	pr0cn000	PronType=Rel	27	nsubj	_	_
 26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
-27	profunda	profunda	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+27	profunda	profundo	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	34	punct	_	_
 29	o	o	CCONJ	cc	ExtPos=CCONJ	34	cc	_	MWE=o_sea|MWEPOS=CCONJ
 30	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	fixed	_	_
@@ -4696,7 +4696,7 @@
 24	hacer	hacer	VERB	vmn0000	VerbForm=Inf	3	conj	_	_
 25	las	él	PRON	da0fp0	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	24	obj	_	_
 26	bien	bien	ADV	rg	_	27	advmod	_	_
-27	finas	fina	ADJ	aq0fp0	Gender=Fem|Number=Plur	24	amod	_	_
+27	finas	fino	ADJ	aq0fp0	Gender=Fem|Number=Plur	24	amod	_	_
 28	y	y	CCONJ	cc	_	29	cc	_	_
 29-30	freírlas	_	_	_	_	_	_	_	SpaceAfter=No
 29	freír	freír	VERB	_	VerbForm=Inf	24	conj	_	_
@@ -5419,7 +5419,7 @@
 37	de	de	ADP	sps00	_	39	case	_	_
 38	unas	uno	DET	di0fp0	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 39	trilladoras	trilladora	NOUN	ncfp000	Gender=Fem|Number=Plur	35	obl	_	_
-40	viejas	vieja	ADJ	aq0fp0	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+40	viejas	viejo	ADJ	aq0fp0	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
 41	,	,	PUNCT	fc	PunctType=Comm	42	punct	_	_
 42	ahí	ahí	ADV	rg	_	39	advmod	_	SpaceAfter=No
 43	,	,	PUNCT	fc	PunctType=Comm	42	punct	_	_
@@ -6144,7 +6144,7 @@
 1	Y	y	CCONJ	cc	_	3	cc	_	_
 2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	gente	gente	NOUN	ncfs000	Gender=Fem|Number=Sing	7	parataxis	_	_
-4	baja	baja	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+4	baja	bajo	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	_
 6	pues	pues	SCONJ	cs	_	7	mark	_	_
 7	tenía	tener	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -7290,7 +7290,7 @@
 22	versos	verso	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obl	_	_
 23	que	que	SCONJ	pr0cn000	_	25	nsubj	_	_
 24	eras	ser	AUX	vsii2s0	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	25	cop	_	_
-25	maravillosa	maravillosa	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	acl	_	_
+25	maravillosa	maravilloso	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	acl	_	_
 26	y	y	CCONJ	cc	_	30	cc	_	_
 27	que	que	SCONJ	pr0cn000	_	30	mark	_	_
 28	eras	ser	AUX	vsii2s0	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	30	aux	_	_
@@ -8336,7 +8336,7 @@
 10	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 11	cantaba	cantar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 12	usted	tú	PRON	pp2cs00p	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
-13	sola	sola	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+13	sola	solo	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	_	_
 
 # sent_id = cana-6
@@ -9651,7 +9651,7 @@
 16	dar	dar	VERB	vmip3s0	VerbForm=Inf	6	conj	_	_
 17	le	él	PRON	pc3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	extrema	extrema	ADJ	aq0fs0	Gender=Fem|Number=Sing	20	amod	_	_
+19	extrema	extremo	ADJ	aq0fs0	Gender=Fem|Number=Sing	20	amod	_	_
 20	unción	unción	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	_	_
 21	y	y	CCONJ	cc	_	22	cc	_	_
 22	ahora	ahora	ADV	rg	_	16	conj	_	SpaceAfter=No
@@ -10030,7 +10030,7 @@
 20	salve	salve	INTJ	_	_	17	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 22	salve	salve	INTJ	_	_	23	discourse	_	_
-23	dolorosa	dolorosa	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	_
+23	dolorosa	doloroso	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	_
 24	y	y	CCONJ	_	_	25	cc	_	_
 25	madre	madre	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
