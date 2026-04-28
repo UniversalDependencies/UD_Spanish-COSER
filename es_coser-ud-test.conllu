@@ -6394,7 +6394,7 @@
 11	en	en	ADP	sps00	_	12	case	_	_
 12	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	9	obl	_	_
 13	ya	ya	ADV	rg	_	14	advmod	_	_
-14	guardadas	guardada	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_
+14	guardadas	guardado	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_
 15	por	por	ADP	sps00	_	17	case	_	_
 16	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	mesillas	mesa	NOUN	ncfp000	Degree=Dim|Gender=Fem|Number=Plur	12	nmod	_	_
@@ -6519,7 +6519,7 @@
 19	prima	primo	NOUN	ncfs000	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	19	punct	_	_
 21	hacía	hacer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
-22	sobreasada	sobreasada	ADJ	ncfs000	Gender=Fem|Number=Sing|VerbForm=Part	21	obj	_	SpaceAfter=No
+22	sobreasada	sobreasado	ADJ	ncfs000	Gender=Fem|Number=Sing|VerbForm=Part	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	fp	PunctType=Peri	7	punct	_	_
 
 # sent_id = rioj-108
