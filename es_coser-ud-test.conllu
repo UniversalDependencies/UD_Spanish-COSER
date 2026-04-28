@@ -2517,7 +2517,7 @@
 65	que	que	SCONJ	pr0cn000	_	63	fixed	_	_
 66	estaba	estar	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	68	cop	_	_
 67	bien	bien	ADV	rg	_	68	advmod	_	_
-68	escurría	escurrida	ADJ	vmp00sf	Gender=Fem|Number=Sing|VerbForm=Part	49	conj	_	Ortho=escurrida
+68	escurría	escurrido	ADJ	vmp00sf	Gender=Fem|Number=Sing|VerbForm=Part	49	conj	_	Ortho=escurrida
 69	entonces	entonces	ADV	rg	_	71	advmod	_	_
 70	cuando	cuando	SCONJ	cs	_	71	mark	_	_
 71	hacían	hacer	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	68	advcl	_	_
