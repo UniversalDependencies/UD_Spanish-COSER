@@ -285,7 +285,7 @@
 20	,	,	PUNCT	fc	PunctType=Comm	19	punct	_	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	perra	perro	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-23	gorda	gorda	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+23	gorda	gordo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	fp	PunctType=Peri	7	punct	_	_
 
 # sent_id = arag-167
@@ -3209,7 +3209,7 @@
 18	era	ser	AUX	vsii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
 19	oficial	oficial	NOUN	aq0cs0	Number=Sing	5	conj	_	_
 20	de	de	ADP	sps00	_	21	case	_	_
-21	segunda	segunda	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+21	segunda	segundo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
 22	y	y	CCONJ	cc	_	23	cc	_	_
 23	serraba	serrar	VERB	vmii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -4768,7 +4768,7 @@
 2	después	después	ADV	rg	_	4	advmod	_	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	obra	obra	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	_	_
-5	blanca	blanca	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	_
+5	blanca	blanco	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	_
 6	que	que	PRON	pr0cn000	PronType=Rel	7	nsubj	_	_
 7	llaman	llamar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	13	punct	_	_
@@ -6361,7 +6361,7 @@
 13	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 14	era	ser	AUX	vsii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 15	muy	mucho	ADV	rg	_	16	advmod	_	_
-16	pequeña	pequeña	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+16	pequeña	pequeño	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 18	vaya	vaya	INTJ	vmm03s0	_	4	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	26	punct	_	_
@@ -6643,7 +6643,7 @@
 8	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	más	más	ADV	rg	Degree=Cmp	11	advmod	_	_
-11	pequeña	pequeña	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+11	pequeña	pequeño	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	11	punct	_	_
 13	esta	este	PRON	pd0fs000	Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	_
 14	murió	morir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
