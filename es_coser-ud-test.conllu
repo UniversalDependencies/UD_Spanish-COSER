@@ -2910,7 +2910,7 @@
 12	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	15	nsubj	_	_
 13	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	más	más	ADV	rg	Degree=Cmp	15	advmod	_	_
-15	delicado	delicado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	5	advcl	_	SpaceAfter=No
+15	delicado	delicado	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	18	punct	_	_
 17	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	18	punct	_	SpaceAfter=No
 18	no	no	ADV	rn	Polarity=Neg	15	advmod	_	SpaceAfter=No
