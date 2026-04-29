@@ -5987,13 +5987,13 @@
 9	y	y	CCONJ	cc	_	12	cc	_	_
 10	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	ya	ya	ADV	rg	_	12	advmod	_	_
-12	apretás	apretada	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	8	conj	_	Ortho=apretadas|SpaceAfter=No
+12	apretás	apretado	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	8	conj	_	Ortho=apretadas|SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	8	punct	_	_
 14	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	ubres	ubre	NOUN	ncfp000	Gender=Fem|Number=Plur	17	nsubj	_	_
 16	las	él	PRON	da0fp0	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	17	obj	_	_
 17	tienen	tener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	apretás	apretada	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	17	xcomp	_	Ortho=apretadas|SpaceAfter=No
+18	apretás	apretado	ADJ	vmp00pf	Gender=Fem|Number=Plur|VerbForm=Part	17	xcomp	_	Ortho=apretadas|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	_	_
 20	vienen	venir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 21	ellas	él	PRON	pp3fp000	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
