@@ -6670,11 +6670,11 @@
 12	me	yo	PRON	pc1cs000	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 13	fui	ser	AUX	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	_	_
 14	a	a	ADP	sps00	_	15	case	_	_
-15	Re	re	X	fs	_	18	reparandum	_	SpaceAfter=No
+15	Re	re	X	fs	_	19	reparandum	_	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	_	_
-17	a	a	ADP	sps00	_	18	case	_	_
-18	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	obl	_	MWE=san_Sebastián|MWEPOS=PROPN
-19	Sebastián	Sebastián	PROPN	np00000	_	18	flat	_	SpaceAfter=No
+17	a	a	ADP	sps00	_	19	case	_	_
+18	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	19	amod	_	MWE=san_Sebastián|MWEPOS=PROPN
+19	Sebastián	Sebastián	PROPN	np00000	_	13	obl	_	SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	22	punct	_	_
 21	en	en	ADP	sps00	_	22	case	_	_
 22	Rentería	Rentería	PROPN	np00000	_	13	obl	_	SpaceAfter=No
@@ -10400,9 +10400,9 @@
 33	virgen	virgen	PROPN	_	_	35	nsubj	_	_
 34	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	expl:pv	_	_
 35	voló	volar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
-36	para	para	ADP	_	_	37	case	_	_
-37	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	35	obl	_	_
-38	Lucas	Lucas	PROPN	_	_	37	flat	_	SpaceAfter=No
+36	para	para	ADP	_	_	38	case	_	_
+37	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	38	amod	_	_
+38	Lucas	Lucas	PROPN	_	_	35	obl	_	SpaceAfter=No
 39	...	...	PUNCT	_	PunctType=Comm	3	punct	_	_
 
 # sent_id = ALEC_C7_B40_1-11
