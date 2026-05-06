@@ -25,6 +25,8 @@ Daniel Zeman (guidelines consulting)
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Changed obl to nmod where detectable that it was wrong.
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
   * Fixed spurious dependents of determiners.
