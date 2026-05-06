@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Spanish-COSER:
-commit c558e841c2d876477c6459044a069208d17f7208
-Merge: 92cb85a ea81a63
+commit b2d98dcd35579ea62edbc453b2b1d5d8e2cdc464
+Merge: 6d9b336 253575e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'es_coser'
@@ -19,36 +19,36 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 5911 out of 8073 total words have one or more features.
+Features: 5913 out of 8073 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-COSER/es_coser-ud-test.conllu
-[Line 121 Sent anda-375]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('le', 'vinagre') under the predicate 'echa'.
-[Line 283 Sent arag-657]: [L3 Syntax too-many-objects] Multiple direct objects [17, 22] ('le', 'perra') under the predicate 'daba'.
-[Line 312 Sent arag-53]: [L3 Warning fixed-without-extpos] Fixed expression 'de todo' does not have the 'ExtPos' feature
-[Line 549 Sent astu-489-2]: [L3 Syntax too-many-objects] Multiple direct objects [5, 9] ('que', 'hijo') under the predicate 'tenía'.
-[Line 628 Sent bale-227]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('les', 'trabajo') under the predicate 'falta'.
-[Line 790 Sent bale-474]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'eso') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 920 Sent cana-241]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('le', 'Molino') under the predicate 'dicen'.
-[Line 933 Sent cana-241]: [L3 Syntax too-many-objects] Multiple direct objects [17, 20] ('le', 'Tierras') under the predicate 'decían'.
-[Line 1016 Sent cant-74]: [L3 Warning fixed-without-extpos] Fixed expression 'Pues claro' does not have the 'ExtPos' feature
-[Line 1398 Sent cata-805]: [L3 Warning fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
-[Line 1873 Sent gall-448]: [L3 Warning fixed-without-extpos] Fixed expression 'los que' does not have the 'ExtPos' feature
-[Line 2063 Sent madr-146]: [L3 Warning fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
-[Line 2323 Sent manc-561]: [L3 Warning fixed-without-extpos] Fixed expression 'O sea' does not have the 'ExtPos' feature
-[Line 2505 Sent murci-402]: [L3 Syntax too-many-objects] Multiple direct objects [52, 54] ('le', 'peso') under the predicate 'ponía'.
-[Line 2835 Sent rioj-69]: [L3 Warning fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
-[Line 2846 Sent rioj-37]: [L3 Warning fixed-without-extpos] Fixed expression 'Lo que' does not have the 'ExtPos' feature
-[Line 3238 Sent vale-6]: [L3 Syntax too-many-objects] Multiple direct objects [45, 47] ('le', 'gusto') under the predicate 'daba'.
-[Line 3297 Sent vale-623]: [L3 Syntax too-many-objects] Multiple direct objects [3, 9] ('le', 'dote') under the predicate 'llevaron'.
-[Line 3502 Sent vasc-389]: [L3 Syntax too-many-objects] Multiple direct objects [9, 13] ('le', 'alas') under the predicate 'llena'.
-[Line 3822 Sent arag-135]: [L3 Warning fixed-without-extpos] Fixed expression 'aparte de' does not have the 'ExtPos' feature
-...suppressing further errors regarding Syntax
-...suppressing further errors regarding Warning
-Syntax errors: 31
-Warnings: 26
+[Line 121 Sent anda-375]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 5] ('le', 'vinagre') under the predicate 'echa'.
+[Line 283 Sent arag-657]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 22] ('le', 'perra') under the predicate 'daba'.
+[Line 312 Sent arag-53]: [L3 WARNING fixed-without-extpos] Fixed expression 'de todo' does not have the 'ExtPos' feature
+[Line 549 Sent astu-489-2]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 9] ('que', 'hijo') under the predicate 'tenía'.
+[Line 628 Sent bale-227]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 9] ('les', 'trabajo') under the predicate 'falta'.
+[Line 920 Sent cana-241]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 8] ('le', 'Molino') under the predicate 'dicen'.
+[Line 933 Sent cana-241]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 20] ('le', 'Tierras') under the predicate 'decían'.
+[Line 1016 Sent cant-74]: [L3 WARNING fixed-without-extpos] Fixed expression 'Pues claro' does not have the 'ExtPos' feature
+[Line 1398 Sent cata-805]: [L3 WARNING fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
+[Line 1873 Sent gall-448]: [L3 WARNING fixed-without-extpos] Fixed expression 'los que' does not have the 'ExtPos' feature
+[Line 2063 Sent madr-146]: [L3 WARNING fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
+[Line 2323 Sent manc-561]: [L3 WARNING fixed-without-extpos] Fixed expression 'O sea' does not have the 'ExtPos' feature
+[Line 2505 Sent murci-402]: [L3 SYNTAX too-many-objects] Multiple direct objects [52, 54] ('le', 'peso') under the predicate 'ponía'.
+[Line 2835 Sent rioj-69]: [L3 WARNING fixed-without-extpos] Fixed expression 'lo que' does not have the 'ExtPos' feature
+[Line 2846 Sent rioj-37]: [L3 WARNING fixed-without-extpos] Fixed expression 'Lo que' does not have the 'ExtPos' feature
+[Line 3238 Sent vale-6]: [L3 SYNTAX too-many-objects] Multiple direct objects [45, 47] ('le', 'gusto') under the predicate 'daba'.
+[Line 3297 Sent vale-623]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 9] ('le', 'dote') under the predicate 'llevaron'.
+[Line 3502 Sent vasc-389]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 13] ('le', 'alas') under the predicate 'llena'.
+[Line 3822 Sent arag-135]: [L3 WARNING fixed-without-extpos] Fixed expression 'aparte de' does not have the 'ExtPos' feature
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 7460 Sent anda-772]: [L3 WARNING fixed-without-extpos] Fixed expression 'dá de alta' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 14
+SYNTAX errors: 31
 *** FAILED *** with 31 errors
 Exit code: 1
 Validity: 0.01
