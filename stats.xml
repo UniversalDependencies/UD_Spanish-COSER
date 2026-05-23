@@ -45,7 +45,7 @@
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">11</feat><!-- espesito, cabritas, chiquitinas, mesillas, pastillica, patitas, pueblecito, ratito, tajaditas, traviesillos -->
     <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- máximo -->
     <feat name="ExtPos" value="ADP" upos="ADP,NOUN">2</feat><!-- a, respecto -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PRON">44</feat><!-- a, por, un, na, ahora, de, en, Aparte, Más, Tal -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PRON">43</feat><!-- a, por, un, na, ahora, de, Aparte, Más, Tal, aun -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ">5</feat><!-- o, así -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,DET,PRON">10</feat><!-- Así, de, una, Asín, Na, en, igual -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,X">891</feat><!-- la, las, una, gente, casa, otra, cosas, esta, mucha, cosa -->
@@ -104,12 +104,12 @@
     <dep name="acl">5</dep>
     <dep name="acl:relcl">33</dep>
     <dep name="advcl">286</dep>
-    <dep name="advmod">655</dep>
+    <dep name="advmod">654</dep>
     <dep name="amod">89</dep>
     <dep name="appos">20</dep>
     <dep name="aux">40</dep>
     <dep name="aux:pass">44</dep>
-    <dep name="case">531</dep>
+    <dep name="case">532</dep>
     <dep name="cc">410</dep>
     <dep name="ccomp">62</dep>
     <dep name="compound">17</dep>
@@ -123,7 +123,7 @@
     <dep name="expl:impers">5</dep>
     <dep name="expl:pass">51</dep>
     <dep name="expl:pv">84</dep>
-    <dep name="fixed">85</dep>
+    <dep name="fixed">84</dep>
     <dep name="flat">9</dep>
     <dep name="mark">351</dep>
     <dep name="nmod">123</dep>
@@ -132,7 +132,7 @@
     <dep name="nsubj:pass">16</dep>
     <dep name="nummod">49</dep>
     <dep name="obj">515</dep>
-    <dep name="obl">316</dep>
+    <dep name="obl">317</dep>
     <dep name="obl:arg">94</dep>
     <dep name="parataxis">37</dep>
     <dep name="punct">1615</dep>
