@@ -10542,12 +10542,12 @@
 3	entre	entre	ADP	_	_	4	case	_	_
 4	ellas	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
 5	había	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
-7	seguramente	seguramente	ADV	_	_	11	advmod	_	_
+6	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+7	seguramente	seguramente	ADV	_	_	9	advmod	_	_
 8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	que	que	SCONJ	_	_	11	mark	_	_
-11	existía	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+9	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	parataxis	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	existía	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
 12	aquí	aquí	ADV	_	_	11	advmod	_	_
 13	en	en	ADP	_	_	15	case	_	_
 14	ese	ese	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
@@ -10556,14 +10556,14 @@
 17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	_	_	19	mark	_	_
 18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	terminar	terminar	VERB	_	VerbForm=Inf	11	obl	_	_
+19	terminar	terminar	VERB	_	VerbForm=Inf	11	advcl	_	_
 20	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	cuesta	cuesta	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
-23	que	que	SCONJ	_	_	25	mark	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
 24	había	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:pass	_	_
-25	quedado	quedar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
-26	en	en	ADP	_	_	25	case	_	_
+25	quedado	quedar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+26	en	en	ADP	_	_	27	case	_	_
 27	pie	pie	NOUN	_	_	25	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
