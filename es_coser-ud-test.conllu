@@ -10545,7 +10545,7 @@
 6	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 7	seguramente	seguramente	ADV	_	_	11	advmod	_	_
 8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	única	único	ADJ	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	que	que	SCONJ	_	_	11	mark	_	_
 11	existía	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
 12	aquí	aquí	ADV	_	_	11	advmod	_	_
