@@ -1090,10 +1090,10 @@
 17	molde	molde	NOUN	ncms000	Gender=Masc|Number=Sing	12	conj	_	_
 18	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	_	_
 19	había	haber	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
-20	de	de	ADP	sps00	ExtPos=SCONJ	23	mark	_	_
-21	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	20	fixed	_	_
-22	de	de	ADP	sps00	_	20	fixed	_	_
-23	queso	queso	NOUN	ncms000	Gender=Masc|Number=Sing	19	obl	_	_
+20	de	de	ADP	sps00	_	21	case	_	_
+21	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obl	_	_
+22	de	de	ADP	sps00	_	23	case	_	_
+23	queso	queso	NOUN	ncms000	Gender=Masc|Number=Sing	21	nmod	_	_
 24	de	de	ADP	sps00	_	25	case	_	_
 25	hacer	hacer	VERB	vmn0000	VerbForm=Inf	19	advcl	_	_
 26	de	de	ADP	sps00	_	28	case	_	_
@@ -3131,7 +3131,7 @@
 77	ni	ni	ADV	cc	_	78	advmod	_	_
 78	sabía	saber	VERB	vmii1s0	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	54	advcl	_	_
 79	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	78	nsubj	_	_
-80	como	como	SCONJ	vmip1s0	_	82	mark	_	_
+80	como	como	SCONJ	cs	_	82	mark	_	_
 81	aquel	aquel	DET	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	82	nsubj	_	_
 82	quería	querer	AUX	vmii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	78	advcl	_	_
 83	hablar	hablar	VERB	vmip3s0	VerbForm=Inf	82	xcomp	_	SpaceAfter=No
@@ -6805,10 +6805,10 @@
 22	panes	pan	NUM	ncmp000	Number=Plur|NumType=Card	16	obj	_	_
 23	amasábamos	amasar	VERB	vmii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	16	advcl	_	_
 24	y	y	CCONJ	cc	_	33	cc	_	_
-25	en	en	ADP	sps00	ExtPos=SCONJ	28	mark	_	MWE=en_vez_de|MWEPOS=ADP
-26	vez	vez	NOUN	ncfs000	_	25	fixed	_	_
-27	de	de	ADP	sps00	_	25	fixed	_	_
-28	amasar	amasar	VERB	vmn0000	VerbForm=Inf	33	advcl	_	_
+25	en	en	ADP	sps00	_	26	case	_	MWE=en_vez_de|MWEPOS=ADP
+26	vez	vez	NOUN	ncfs000	_	33	advcl	_	_
+27	de	de	ADP	sps00	_	28	case	_	_
+28	amasar	amasar	VERB	vmn0000	VerbForm=Inf	26	nmod	_	_
 29	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	dos	dos	NUM	az0000	Number=Plur|NumType=Card	33	nsubj	_	_
 31	nos	yo	PRON	pc1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	33	expl:pv	_	_
@@ -10011,8 +10011,8 @@
 1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-4	en	en	ADP	_	ExtPos=ADV	6	advmod	_	MWE=en_general|MWEPOS=ADV
-5	general	general	ADV	_	_	4	fixed	_	_
+4	en	en	ADP	_	_	5	case	_	MWE=en_general|MWEPOS=ADV
+5	general	general	ADV	_	_	6	obl	_	_
 6	alaben	alabir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	con	con	ADP	_	_	8	case	_	_
 8	devoción	devoción	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -10131,7 +10131,7 @@
 18	algunas	alguno	DET	_	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
 19	hortalizas	hortaliza	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 20	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	22	punct	_	SpaceAfter=No
-21	como	como	SCONJ	_	_	22	mark	_	_
+21	como	como	SCONJ	cs	_	22	mark	_	_
 22	cuáles	cuál	PRON	_	Number=Plur|PronType=Int,Rel	5	parataxis	_	SpaceAfter=No
 23	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	22	punct	_	_
 
@@ -10303,11 +10303,11 @@
 3	iba	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	muy	mucho	ADV	_	_	5	advmod	_	_
 5	asustado	asustado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	obj	_	_
-6	de	de	ADP	_	ExtPos=SCONJ	10	mark	_	MWE=de_modo_que|MWEPOS=SCONJ
-7	modo	modo	NOUN	_	_	6	fixed	_	_
-8	que	que	SCONJ	_	_	6	fixed	_	_
+6	de	de	ADP	_	_	7	case	_	MWE=de_modo_que|MWEPOS=SCONJ
+7	modo	modo	NOUN	_	_	3	advcl	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
 9	entoes	entonces	ADV	_	_	10	advmod	_	Ortho=entonces
-10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl	_	_
 11	que	que	SCONJ	_	_	13	mark	_	_
 12	si	si	ADV	_	_	13	advmod	_	_
 13	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
@@ -10323,7 +10323,7 @@
 3	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
 4	aproximadamente	aproximadamente	ADV	_	_	2	advmod	_	_
 5	según	según	ADP	_	_	8	case	_	_
-6	como	como	SCONJ	_	_	8	mark	_	_
+6	como	como	SCONJ	cs	_	8	mark	_	_
 7	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pass	_	_
 8	dedique	dedicar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 9	si	si	SCONJ	_	_	11	mark	_	_
@@ -10391,7 +10391,7 @@
 24	hicieron	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
 25	otra	otro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
 26	capilla	capilla	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
-27	como	como	SCONJ	_	_	29	mark	_	_
+27	como	como	SCONJ	cs	_	29	mark	_	_
 28	no	no	ADV	rn	Polarity=Neg	29	advmod	_	_
 29	trajeron	traer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	35	advcl	_	_
 30	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
@@ -10456,7 +10456,7 @@
 9	allá	allá	ADV	_	_	4	advmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Cargadero	Cargadero	PROPN	_	_	9	obl	_	_
-12	como	como	SCONJ	_	_	14	mark	_	_
+12	como	como	SCONJ	cs	_	14	mark	_	_
 13	entonces	entonces	ADV	_	_	14	advmod	_	_
 14	decían	decir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
 15	crecía	crecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -10542,12 +10542,12 @@
 3	entre	entre	ADP	_	_	4	case	_	_
 4	ellas	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
 5	había	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
-7	seguramente	seguramente	ADV	_	_	11	advmod	_	_
+6	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+7	seguramente	seguramente	ADV	_	_	9	advmod	_	_
 8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	única	único	ADJ	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	que	que	SCONJ	_	_	11	mark	_	_
-11	existía	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+9	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	parataxis	_	_
+10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
+11	existía	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
 12	aquí	aquí	ADV	_	_	11	advmod	_	_
 13	en	en	ADP	_	_	15	case	_	_
 14	ese	ese	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
@@ -10556,14 +10556,14 @@
 17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	_	_	19	mark	_	_
 18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	terminar	terminar	VERB	_	VerbForm=Inf	11	obl	_	_
+19	terminar	terminar	VERB	_	VerbForm=Inf	11	advcl	_	_
 20	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	cuesta	cuesta	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
-23	que	que	SCONJ	_	_	25	mark	_	_
+23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
 24	había	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:pass	_	_
-25	quedado	quedar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
-26	en	en	ADP	_	_	25	case	_	_
+25	quedado	quedar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+26	en	en	ADP	_	_	27	case	_	_
 27	pie	pie	NOUN	_	_	25	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
@@ -10687,7 +10687,7 @@
 5	que	que	SCONJ	_	_	4	mark	_	_
 6	claro	claro	ADJ	_	Gender=Masc|Number=Sing	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
-8	como	como	SCONJ	_	_	11	mark	_	_
+8	como	como	SCONJ	cs	_	11	mark	_	_
 9	por	por	ADP	_	_	11	case	_	_
 10	acá	acá	ADV	_	_	11	advmod	_	_
 11	nosotros	yo	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
@@ -10742,7 +10742,7 @@
 4	sembrado	sembrado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_
 5	por	por	ADP	_	_	6	case	_	_
 6	acá	acá	ADV	_	_	4	obl	_	_
-7	como	como	SCONJ	_	_	11	mark	_	_
+7	como	como	SCONJ	cs	_	11	mark	_	_
 8	no	no	ADV	rn	Polarity=Neg	11	advmod	_	_
 9	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
@@ -10765,7 +10765,7 @@
 27	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 28	ya	ya	ADV	_	_	31	advmod	_	_
 29	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
-30	como	como	SCONJ	_	_	31	mark	_	_
+30	como	como	SCONJ	cs	_	31	mark	_	_
 31	formada	formado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	22	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
@@ -10961,7 +10961,7 @@
 2	o	o	CCONJ	_	_	1	fixed	_	_
 3	menos	menos	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
-5	como	como	SCONJ	_	_	9	mark	_	_
+5	como	como	SCONJ	cs	_	9	mark	_	_
 6	poco	poco	ADV	_	_	7	advmod	_	_
 7	rival	rival	NOUN	_	Number=Sing	9	obl	_	_
 8	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	_	_

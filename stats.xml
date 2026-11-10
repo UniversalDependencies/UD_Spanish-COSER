@@ -24,10 +24,10 @@
     <tag name="INTJ">141</tag><!-- sí, eh, bueno, claro, brum, ay, ah, hala, mm, salve -->
     <tag name="NOUN">926</tag><!-- año, día, cosa, casa, gente, hijo, vez, hermano, pueblo, marido -->
     <tag name="NUM">91</tag><!-- dos, cinco, cuarenta, cuatro, siete, tres, ocho, cincuenta, diez, veinte -->
-    <tag name="PRON">904</tag><!-- él, yo, tú, ese, que, todo, cómo, qué, este, otro -->
+    <tag name="PRON">906</tag><!-- él, yo, tú, ese, que, todo, cómo, qué, este, otro -->
     <tag name="PROPN">66</tag><!-- NP, Pamplona, España, Madrid, virgen, Alemania, Ana, Arroa, Bolívar, Cargadero -->
     <tag name="PUNCT">1615</tag><!-- ,, ., ?, ¿, ..., ", !, ¡, :, ( -->
-    <tag name="SCONJ">360</tag><!-- que, pues, porque, si, como, cuando, mientras -->
+    <tag name="SCONJ">358</tag><!-- que, pues, porque, si, como, cuando, mientras -->
     <tag name="VERB">978</tag><!-- hacer, tener, ir, haber, decir, estar, venir, poner, ver, saber -->
     <tag name="X">27</tag><!-- anim, cuan, a, apar, cam, champ, co, cor, cos, cuch -->
   </tags>
@@ -45,9 +45,9 @@
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">11</feat><!-- espesito, cabritas, chiquitinas, mesillas, pastillica, patitas, pueblecito, ratito, tajaditas, traviesillos -->
     <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- máximo -->
     <feat name="ExtPos" value="ADP" upos="ADP,NOUN">2</feat><!-- a, respecto -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PRON">44</feat><!-- a, por, un, na, ahora, de, en, Aparte, Más, Tal -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PRON">43</feat><!-- a, por, un, na, ahora, de, Aparte, Más, Tal, aun -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ">5</feat><!-- o, así -->
-    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,DET,PRON">10</feat><!-- Así, de, una, Asín, Na, en, igual -->
+    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADV,DET,PRON">7</feat><!-- Así, una, Asín, Na, igual -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,X">891</feat><!-- la, las, una, gente, casa, otra, cosas, esta, mucha, cosa -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1162</feat><!-- el, lo, los, un, todo, años, otro, todos, días, día -->
     <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- dedicaría, pintaría -->
@@ -77,7 +77,7 @@
     <feat name="PronType" value="Int,Rel" upos="DET,PRON">10</feat><!-- que, cuál, cuáles, qué -->
     <feat name="PronType" value="Neg" upos="DET,PRON">14</feat><!-- nada, na, nadie, ninguno, ningún -->
     <feat name="PronType" value="Prs" upos="DET,PRON">611</feat><!-- se, lo, yo, le, te, me, mi, los, la, nos -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">55</feat><!-- que, donde, quien, cuantas -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">57</feat><!-- que, donde, quien, cuantas -->
     <feat name="PronType" value="Tot" upos="DET,PRON">72</feat><!-- todo, todos, to, cada, todas, tos, toda, toa, toas -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">182</feat><!-- ?, !, ", ) -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">178</feat><!-- ¿, ", ¡, ( -->
@@ -101,19 +101,19 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
-    <dep name="acl">5</dep>
-    <dep name="acl:relcl">33</dep>
+    <dep name="acl">6</dep>
+    <dep name="acl:relcl">34</dep>
     <dep name="advcl">286</dep>
-    <dep name="advmod">655</dep>
+    <dep name="advmod">654</dep>
     <dep name="amod">89</dep>
     <dep name="appos">20</dep>
     <dep name="aux">40</dep>
     <dep name="aux:pass">44</dep>
-    <dep name="case">531</dep>
+    <dep name="case">537</dep>
     <dep name="cc">410</dep>
-    <dep name="ccomp">62</dep>
+    <dep name="ccomp">61</dep>
     <dep name="compound">17</dep>
-    <dep name="conj">341</dep>
+    <dep name="conj">342</dep>
     <dep name="cop">120</dep>
     <dep name="csubj">8</dep>
     <dep name="dep">2</dep>
@@ -123,18 +123,18 @@
     <dep name="expl:impers">5</dep>
     <dep name="expl:pass">51</dep>
     <dep name="expl:pv">84</dep>
-    <dep name="fixed">85</dep>
+    <dep name="fixed">78</dep>
     <dep name="flat">9</dep>
-    <dep name="mark">351</dep>
-    <dep name="nmod">123</dep>
-    <dep name="nsubj">346</dep>
+    <dep name="mark">347</dep>
+    <dep name="nmod">125</dep>
+    <dep name="nsubj">347</dep>
     <dep name="nsubj:outer">5</dep>
     <dep name="nsubj:pass">16</dep>
     <dep name="nummod">49</dep>
     <dep name="obj">515</dep>
     <dep name="obl">316</dep>
     <dep name="obl:arg">94</dep>
-    <dep name="parataxis">37</dep>
+    <dep name="parataxis">38</dep>
     <dep name="punct">1615</dep>
     <dep name="reparandum">164</dep>
     <dep name="root">539</dep>
